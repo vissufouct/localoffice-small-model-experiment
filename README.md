@@ -61,11 +61,11 @@ Captured from the native LocalOffice Experiment app using a disposable demo proj
 
 ### Workspace and document preview
 
-![LocalOffice workspace showing project chats, shared artifacts, prompt composer, source preview and annotation controls](docs/screenshots/workspace.png)
+![LocalOffice workspace showing project chats, shared artifacts, prompt composer, source preview and annotation controls](docs/screenshots/workspace.jpg)
 
 ### Memory and continuity
 
-![Memory and continuity panel with history search, graph inspection and confirmed-decision controls](docs/screenshots/memory-continuity.png)
+![Memory and continuity panel with history search, graph inspection and confirmed-decision controls](docs/screenshots/memory-continuity.jpg)
 
 [Capture details and limitations](docs/screenshots/README.md).
 

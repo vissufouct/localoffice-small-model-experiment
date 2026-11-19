@@ -18,7 +18,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "7b033382300109e082052a55fefa9b8e881d71c43f0e85f470e6332ae87571f3",
+      "sha256": "f9894032cacf3a9a3919a1cd9c1d9f4f44fe2b1365df59d067dbdf5cd52bb29c",
       "bytes": 8536
     },
     {
@@ -528,16 +528,16 @@
     },
     {
       "path": "docs/screenshots/README.md",
-      "sha256": "5ffd5a608635b0f3013c7281ca6f6de4490fe1e29989d55f192fab4174cceed2",
+      "sha256": "09e474808d2a24e048cb15c537a0e9935af1fa203b2751c053adc0a04ef750c5",
       "bytes": 1196
     },
     {
-      "path": "docs/screenshots/memory-continuity.png",
+      "path": "docs/screenshots/memory-continuity.jpg",
       "sha256": "e7fd404ae2c01161417273cd958d291878a55e97fbdbbaec2fa27dddd7713b42",
       "bytes": 340965
     },
     {
-      "path": "docs/screenshots/workspace.png",
+      "path": "docs/screenshots/workspace.jpg",
       "sha256": "dbb5624d251224d08ebf5757752f8e8fa398a871c3c36679208bc6961d255d22",
       "bytes": 473338
     },
