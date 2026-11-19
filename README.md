@@ -1,8 +1,8 @@
 # LocalOffice: a small-model harness experiment
 
-**26 hours, 28 minutes of recorded goal runtime with “ChatGPT Astra”—our name for the ChatGPT/Codex development agent—to explore one question: can a carefully designed harness make a small local model reliable at precise document work?**
+**26 hours, 28 minutes of recorded goal runtime with GPT-6 Astra running in Codex—the coding-agent harness used for development—to explore one question: can a carefully designed harness make a small local model reliable at precise document work?**
 
-**This is an unfinished experiment, not a production Office assistant.** We are publishing the client, source, failure/success logs and lessons so others can reproduce the tests and reuse the useful parts. “Astra” is the author's label, not a claim about an official model or product. The duration is the goal system's recorded runtime (95,306 seconds), not continuous inference, engineering labour or total project age. See [timing provenance](docs/results/README.md#development-duration).
+**This is an unfinished experiment, not a production Office assistant.** We are publishing the client, source, failure/success logs and lessons so others can reproduce the tests and reuse the useful parts. The duration is the goal system's recorded runtime (95,306 seconds), not continuous inference, engineering labour or total project age. See [timing provenance](docs/results/README.md#development-duration).
 
 ## The problem
 
@@ -20,7 +20,14 @@ Move mechanical work into an explicit, auditable harness:
 4. **Manage narrow context.** Durable history, exact execution receipts, checkpoints and bounded graph retrieval support continuation without resending unchanged documents.
 5. **Measure the complete task.** Count total calls, retries, tokens, latency and memory; assess meaning, artifact structure, rendered layout and the save/undo lifecycle separately.
 
-The working prototype uses a Tauri/TypeScript desktop client, Python host, MLX/llama.cpp adapters and an Open XML Word worker. The final Word experiments pin **Qwen3-4B-Instruct-2507, MLX 4-bit**, with a 4096-token context. ChatGPT/Codex coordinated development; Qwen performed the measured local document tasks.
+The working prototype uses a Tauri/TypeScript desktop client, Python host, MLX/llama.cpp adapters and an Open XML Word worker. The final Word experiments pin **Qwen3-4B-Instruct-2507, MLX 4-bit**, with a 4096-token context. **GPT-6 Astra was the development model; Codex was the coding-agent harness.** Qwen performed the measured local document tasks inside the experimental LocalOffice harness.
+
+| Role | Model or harness |
+|---|---|
+| Development model | [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) |
+| Development coding agent / harness | [Codex](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) |
+| Local model under evaluation | Qwen3-4B-Instruct-2507, MLX 4-bit |
+| Experimental document harness being built | LocalOffice |
 
 ## What happened
 

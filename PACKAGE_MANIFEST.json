@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "0654eb93c27470273ee4d3b983bf89841335a7bf328a0f794931ba209b69b618",
-      "bytes": 7385
+      "sha256": "a9837e3d49880c03167ff701ce9529ff995cff876a4aac85aa41547a5fb3a108",
+      "bytes": 7787
     },
     {
       "path": "Setup.command",
@@ -493,8 +493,8 @@
     },
     {
       "path": "docs/results/README.md",
-      "sha256": "81fef2f6934a6799fc1ed0e8565f83fcf5f5c19879a9353952495a481c788f9f",
-      "bytes": 2809
+      "sha256": "e95742db6a521cb471bb8e8ca5304e9da62001079eb82ee22593a1e463bd428a",
+      "bytes": 3048
     },
     {
       "path": "docs/results/complete_task_runs.csv",
@@ -508,8 +508,8 @@
     },
     {
       "path": "docs/results/development_timing.json",
-      "sha256": "66b826dceb24aff2e116465497c78fff60da9d2d2bd0658bd305573492ac02e8",
-      "bytes": 457
+      "sha256": "486c803bc716043dfb3275139a4f9c8a08861e1d8a928f86fdbf1575609320f1",
+      "bytes": 680
     },
     {
       "path": "docs/results/drafting_diagnostic.csv",
