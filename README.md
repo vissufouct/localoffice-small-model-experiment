@@ -55,6 +55,20 @@ The [results directory](docs/results/README.md) contains:
 
 These are **curated, scoped logs**, not every historical run or one combined success rate. Each row points to evidence. Blank measurements are unknown/not recorded, not zero. Regenerate with `python scripts/export_result_csvs.py`.
 
+## Screenshots of the real client
+
+Captured from the native LocalOffice Experiment app using a disposable demo project. The document is a prepared Markdown source; the prompt has **not** been submitted and **no model is loaded**. These screenshots demonstrate the UI, not successful model inference or Word-task acceptance.
+
+### Workspace and document preview
+
+![LocalOffice workspace showing project chats, shared artifacts, prompt composer, source preview and annotation controls](docs/screenshots/workspace.png)
+
+### Memory and continuity
+
+![Memory and continuity panel with history search, graph inspection and confirmed-decision controls](docs/screenshots/memory-continuity.png)
+
+[Capture details and limitations](docs/screenshots/README.md).
+
 ## Run the real client
 
 **Apple-silicon macOS source installation:** install Node.js 22.13+, uv, Python 3.12, Rust/Cargo and Xcode command-line tools. Then clone this repository and run:

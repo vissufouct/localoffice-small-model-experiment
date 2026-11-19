@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a9837e3d49880c03167ff701ce9529ff995cff876a4aac85aa41547a5fb3a108",
-      "bytes": 7787
+      "sha256": "7b033382300109e082052a55fefa9b8e881d71c43f0e85f470e6332ae87571f3",
+      "bytes": 8536
     },
     {
       "path": "Setup.command",
@@ -40,21 +40,6 @@
       "path": "apps/desktop/index.html",
       "sha256": "262f0c2843311ad49bd3036b91b00f70b82d13eb277b7d2a6dee95432b0d3505",
       "bytes": 251
-    },
-    {
-      "path": "apps/desktop/src/env.d.ts",
-      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
-      "bytes": 38
-    },
-    {
-      "path": "apps/desktop/src/main.ts",
-      "sha256": "e394c56ae4a5738c8beda8697fd18e19470196a91e3ff0fc3f274a6638102daf",
-      "bytes": 62361
-    },
-    {
-      "path": "apps/desktop/src/style.css",
-      "sha256": "5957c60e3376f448fa30e77a3024be04d1c6913429c2f46924824cf8fbd191de",
-      "bytes": 9996
     },
     {
       "path": "apps/desktop/src-tauri/Cargo.lock",
@@ -372,6 +357,21 @@
       "bytes": 902
     },
     {
+      "path": "apps/desktop/src/env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    {
+      "path": "apps/desktop/src/main.ts",
+      "sha256": "e394c56ae4a5738c8beda8697fd18e19470196a91e3ff0fc3f274a6638102daf",
+      "bytes": 62361
+    },
+    {
+      "path": "apps/desktop/src/style.css",
+      "sha256": "5957c60e3376f448fa30e77a3024be04d1c6913429c2f46924824cf8fbd191de",
+      "bytes": 9996
+    },
+    {
       "path": "apps/desktop/vite.config.ts",
       "sha256": "2faf3e4c12ebd0e97c2c5ad74f02b61ce3cbf776720505b3bf6e5dc63a461e13",
       "bytes": 254
@@ -388,8 +388,8 @@
     },
     {
       "path": "docs/DEMO.md",
-      "sha256": "a8bc39b5f33de61d33098413139f99fa7ebf44cc604608096844c8f7aa670959",
-      "bytes": 1829
+      "sha256": "4ba1449c8333e65fb2a681d44e5974ab5af206b82527aa087991dbf3f8f47f79",
+      "bytes": 1907
     },
     {
       "path": "docs/EXPERIMENT.md",
@@ -525,6 +525,21 @@
       "path": "docs/results/validation_summary.csv",
       "sha256": "9aedbd134011fac8430e861a2428897376db2120dfd14e608cb743f3a2282898",
       "bytes": 539
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "sha256": "5ffd5a608635b0f3013c7281ca6f6de4490fe1e29989d55f192fab4174cceed2",
+      "bytes": 1196
+    },
+    {
+      "path": "docs/screenshots/memory-continuity.png",
+      "sha256": "e7fd404ae2c01161417273cd958d291878a55e97fbdbbaec2fa27dddd7713b42",
+      "bytes": 340965
+    },
+    {
+      "path": "docs/screenshots/workspace.png",
+      "sha256": "dbb5624d251224d08ebf5757752f8e8fa398a871c3c36679208bc6961d255d22",
+      "bytes": 473338
     },
     {
       "path": "docs/source-export-manifest.json",
