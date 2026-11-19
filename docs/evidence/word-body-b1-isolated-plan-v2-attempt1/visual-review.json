@@ -1,0 +1,41 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "reviewer": "Codex",
+    "scope": "Post-failure candidate only; no task/lifecycle acceptance",
+    "candidate_revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+    "pdf_hash": "8914de18ab59ae8a37f271b6c3829b726f67b14d64430197f68fb4e3db873a81",
+    "pages_viewed": [
+      1,
+      2
+    ],
+    "images": {
+      "page-1.png": "e3437181a5b01859dbfb8e720f351615f5d5e78ef1224d37f84d1f003584f95a",
+      "page-2.png": "7157a24cfa1741a1bbff4f1dd4012b89b403ebdfacf9393db6442d4d7de7a812"
+    },
+    "visual": "passed",
+    "observations": "Both pages viewed. Opening literal and invitation on page1; conclusion on page2. Readable accented text, no clipping or extra content.",
+    "candidate_semantics": "pass: neutral8-word invitation; no completed-review or organisation claims",
+    "draft_fragment_semantics": "fail: submitted first literal instead of invitation",
+    "xml_assertions": {
+      "body_texts": [
+        "Síntese — café e inovação.",
+        "Please review the document for clarity and completeness.",
+        "Conclusão — próximos passos."
+      ],
+      "xml_assertions": "passed",
+      "draft_semantics": "pending_reviewer",
+      "semantic_review_required": "One neutral English invitation sentence, without completed-review or organisational claims."
+    },
+    "pdf_assertions": {
+      "pages": 2,
+      "page_texts": [
+        "Síntese — café e inovação. Please review the document for clarity and completeness.",
+        "Conclusão — próximos passos."
+      ],
+      "pdf_text_assertions": "passed",
+      "visual_review": "pending_reviewer"
+    },
+    "full_task_acceptance": "failed_step_limit; exact paragraph2 handoff would also fail"
+  }
+}

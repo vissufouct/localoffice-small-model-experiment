@@ -1,0 +1,10 @@
+{
+  "source": "Local goal API snapshot observed 2026-11-19",
+  "timeUsedSeconds": 95306,
+  "display": "26h 28m 26s",
+  "scope": "Word-phase goal accounting; not total project time or continuous inference",
+  "created_at_maputo": "2026-11-15T20:34:14+02:00",
+  "last_updated_maputo": "2026-11-18T14:19:30+02:00",
+  "development_agent_label": "ChatGPT Astra (author-chosen label for ChatGPT/Codex)",
+  "local_task_model": "Qwen3-4B-Instruct-2507 MLX 4-bit"
+}

@@ -1,0 +1,851 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "diagnostic": "draft_focus_objective_v1",
+    "fixture_sha256": "b4430ae2137238f189491c30a38a3224f78f451ab46ca10152579e1ec6989b83",
+    "script_sha256": "33542a8aad5dc1dc468cc78cd9f06b0294e1946b0d4d3aa0a028dbaf994d9546",
+    "runtime_sources": {
+      "host/localoffice/__init__.py": "fd7f40443a3b6af61422b8db0faf794acf8d3dbec793ddfd0507e08f8033c43b",
+      "host/localoffice/annotations.py": "760f00595526f81c3dfe2129c0814e2fabec71fdac96e4ea7c5848dcb919e8c1",
+      "host/localoffice/assets.py": "601a13617ecccdc78dc47eaed77356bc9695f0ac94ca45d71706b0394488ea72",
+      "host/localoffice/attachments.py": "25519c1afdb5d90d0bd82be1467e2ea15fa93ce43c16f80dbffd1da73de3a59e",
+      "host/localoffice/builtin_skills/word-create/SKILL.md": "dcd63f607fb20b145bdac887a4ead9db70a7936bedb1c2d2830fbacdcfa96ca1",
+      "host/localoffice/builtin_skills/word-edit/SKILL.md": "67dbcb9de639f0a2ea79ed74c80ca712f21913dba32ddcbe8d0152f0395aa3d6",
+      "host/localoffice/chats.py": "6d5ff485c37f13595e30d477278d5c4e427b6a78a178d12da55acb9b4909670e",
+      "host/localoffice/decoding.py": "7bb91305ab7e65c004733fa4e5d8799907d79d6138551f9fd8291bc351bf2eed",
+      "host/localoffice/discovery.py": "ed6e633dc3a966b12f7305741496d57d41e4d1b09c01c06a91147b96a8091a6e",
+      "host/localoffice/draft_budget.py": "abd995d7ff969e80caecc922370f711674a2207a7ceaeb3a790c44f2576cfcf5",
+      "host/localoffice/errors.py": "423fc9b2b5eadbe306f87a78c9dd63ca6bef8961d738494c8c12d1ef23816b90",
+      "host/localoffice/graph.py": "91c712bb521ad2c6ed649af0e03f3b49f683040bcad45e0d7a733ad8a3aa833d",
+      "host/localoffice/memory.py": "7420d6bc51f69f8be7e3f43f138d3c2bcee9f3a12325aa5214cb0c26a559dc28",
+      "host/localoffice/metrics.py": "ae97bd27d39e1a9c23c6e45dc9cc675b4672ca242c80bcdfa71eb8db4616a5ff",
+      "host/localoffice/mlx_worker.py": "fc4e7682669cb8a15497906e1126d7e7c1ec1dfe0eb2d87963a94c7a3439862f",
+      "host/localoffice/model_profiles.py": "4908878d4138cf5dadf0bc9c167d7a972dbb396adc606df26323e71ba02cc8ff",
+      "host/localoffice/native_history.py": "c1a1b16c5101619b05f612beabaaea2a24d988cb9bc673bb74634528a09662e8",
+      "host/localoffice/native_tools.py": "cebdbf65905627267b0b8090c2a98d73d45d136eda2102fe4a85e52b464e3729",
+      "host/localoffice/paths.py": "64140eceeb159b4fc526ba5116f4f757945db669c2167219b57068430327d84c",
+      "host/localoffice/pdf.py": "3028f22475361577c6c59f94f08eff6b3fd9b79183e956fafe2f1b23f1003878",
+      "host/localoffice/pdf_worker.py": "e738c1a4afa5731dd395238e1e9f45f613795497aa0ae5a27efbac44317a851c",
+      "host/localoffice/plugins.py": "01387a0501e2bd1d9454a356dea674a1f25332f341ea184b80c5603329a6e096",
+      "host/localoffice/policy.py": "816d33faa841d3a1cbe60c96772a7050017788afe3d3c8921609c42972db6bc3",
+      "host/localoffice/projects.py": "99e64451a12e2c654d8220144f29b8aa7e5a8a68aaaad44289dcebb1042b9be9",
+      "host/localoffice/providers.py": "e22fba5adf7b7f6891f0fc1a77f223a84a9321c249b5e8ee2792f720093bb4cf",
+      "host/localoffice/recovery.py": "d4684415c8c7f80af4638b0f49ddba0768647535845a26bc26d59001a13084d1",
+      "host/localoffice/removal.py": "1ca5a38ede8811096322c0eb1ec530098f81cff133c9e28df85208dd3f8428bd",
+      "host/localoffice/reviews.py": "d013d0d52b145a34a5b20e4a8183793da704c8bf126ce31c069625f5a1240250",
+      "host/localoffice/runtime.py": "1677de55d4cb18825a57efd4d6bd8964cdfe18f484f977288f97b4d1b8981630",
+      "host/localoffice/sampling.py": "2b8d155c72687d96cdfac36e552c296d76961909607655045223f4b63c9e3590",
+      "host/localoffice/server.py": "cdea8c583db06690afd9ce4672c34d3229d26b0aa258098298d5b06a9b7101e5",
+      "host/localoffice/skills.py": "e326ea3e14d0d52decbb0da3ff100d8f21aa573c75868a70427fc49625f5148b",
+      "host/localoffice/storage.py": "81ad414e36bfd7f2984a838522e91071c62b603154072a0cf1cf7c45335e0e77",
+      "host/localoffice/tool_transport.py": "a6cb6f0b06b086e923d1b2b4f82879c79d19f178dd1dab8569cf3159dd4096c2",
+      "host/localoffice/word/__init__.py": "45a7da73c920761ed09c687bb461a95f5a9df7f0a20f3cc781e86d6fe2152241",
+      "host/localoffice/word/content_coverage.py": "7a2bd59b113d8a51239ca5c88a9571260f44a6429183639d4b040e5580afdbc7",
+      "host/localoffice/word/content_plan.py": "b5759491bed0ca28f7b5a2f9a216d6adbec42c56ea4a04effd779d5f8024769c",
+      "host/localoffice/word/content_plan_repair.py": "120a7de1a514c4c641a54c42267c12dc01f1c00b47246efebb2729e3e66bbdcd",
+      "host/localoffice/word/contracts.py": "00b81a88deed362f8911bf5751be0b51e792e1f8773b7b10b402c696a9a561c8",
+      "host/localoffice/word/creation_blocks.py": "aa8b4c565812b74f048a9c08eef34880ca9a559a291d063d2c3ed863e6ec9019",
+      "host/localoffice/word/creation_effect.py": "5965cbd9bbe4cac91141b18ecfa2248345f4f1e45e60974a5f503274d8f7fc79",
+      "host/localoffice/word/creation_evidence.py": "e19a0067f3e98b77c441c5c424710943e5efac542607bfb489c267d4dcc6f4fb",
+      "host/localoffice/word/creation_identity.py": "4b506d6b86032f1af922ab3b513143f167297c2e0c67e6c48018eb1802fa487c",
+      "host/localoffice/word/creation_repair.py": "e7fdedb6c20108ed32a6cbaf4cac22471d618e6a459844e56d40dff113e3290e",
+      "host/localoffice/word/creation_revision.py": "e347026d38bb5c90cfc1cd2ae8e3d60509d3ce703e00d804f71b7f9aa069a918",
+      "host/localoffice/word/creation_routing.py": "fe340cee83e62fbf920b29d2294edbdff5718e7cd8f0c05d1a23b2f2a00573d0",
+      "host/localoffice/word/creation_styles.py": "76d96b93792f05f74fe94b138261d89434b1d6125c8762e27ed7e48c0e54efa2",
+      "host/localoffice/word/creation_submission.py": "b1d7762fcc0593b8aa3e5bcfe7dce4056d8b8dde39eb5f9ac23c5c99e6e5cbe6",
+      "host/localoffice/word/draft_context.py": "edd8441a5e7c39c61e30dfe799d238af082b729521c565fb130ee7ef2523e168",
+      "host/localoffice/word/draft_fragments.py": "da1813dbce559ddd95fbf88a430e9b58f0960a0d58e09214425b9cbf6d85635b",
+      "host/localoffice/word/draft_parent_context.py": "a66cf65b08f972220b60aed7f42bc83ee0932d6e89b2ce444a1a90b34fa8b0a5",
+      "host/localoffice/word/draft_planning_context.py": "b2cc42e4431aebc3047e1f5dd799b1b0dbf7db3b65f7a35d9fb2e1999734fc2f",
+      "host/localoffice/word/draft_routing.py": "d665343f27f8b71e84c57692baa7b8cf147bd2e099126995ea80148f62116ca1",
+      "host/localoffice/word/draft_runtime_context.py": "a48242a43d8352624f392f3971066628571e9742b84560112db1fc3f03fd6f57",
+      "host/localoffice/word/evidence.py": "99f1efbd55acecf1e5f90b467af5ed790b5632fa772ec5c65f59bc04ba70209c",
+      "host/localoffice/word/export.py": "f43254fd60ee8fb4ffc44a35d7960fd6ed09ed9f544dbe29c75d0464764ad4be",
+      "host/localoffice/word/fields.py": "9975b8d7da78487bc97a5899afa08fe6e0b2202ceadf6f41be8b9672d6b112b1",
+      "host/localoffice/word/guidance.py": "da6850b30f2594fed0bf51a9b9128f2255ac0773d445c09c723235821b64dd61",
+      "host/localoffice/word/objective_evidence.py": "f820d3c555012f8e7f2144f89c5bc9f584d9b02b57128cb4ff89933290931ca8",
+      "host/localoffice/word/page_requirement_projection.py": "ee52f9aa18da79e52ee6753d337876225f070bafc0c9d0e6d0d6cce8bc8619ff",
+      "host/localoffice/word/plugin.py": "f2535b319c6bb63b98d3ef1809433d137519550acda95cf661c04058b22940d6",
+      "host/localoffice/word/progress.py": "6c8776e8e346807e8ba82b6500c32d392e002c52d4b2226d27b7644dcd74654a",
+      "host/localoffice/word/read_context.py": "91871ad7f2531d7b348e85d13d2915e827c2e289a12719b7275dc9f44ecedc40",
+      "host/localoffice/word/receipt_context.py": "83dd3448fa1682194ba86af8e2196b2ecee7607d22bd6c0a7d2346b828ff588b",
+      "host/localoffice/word/render.py": "dc4edee85f4de1eaaf37b84d3e55992bc21391419c1a072edfbb3c377e3927c0",
+      "host/localoffice/word/render_context.py": "bdd391d050fdaf80de24e53bb7da102339513633b8141241a49fb383ed35a3f8",
+      "host/localoffice/word/requirement_checks.py": "29709a355df4935b0a73adfc698d8ee8fe286228414a97922aba6d852bcc94ea",
+      "host/localoffice/word/requirement_context.py": "8c8fb246078a96da4e8e30db3ee914da16506171f855d286d8f1085449f4a080",
+      "host/localoffice/word/requirement_plan_context.py": "dd1207aa0ffc58bf00dd9ab27cdac8f2852236a2e08f6f5654828f89dac90902",
+      "host/localoffice/word/requirements.py": "c5c772767ca7c60501b506fecf270727b5ba9598b6557dd2f1bececfe362e5d3",
+      "host/localoffice/word/routing.py": "537ef9b3d266c2fda2785a2e4c7454c2534ebcf06377514a81422df6c24787e9",
+      "host/localoffice/word/source_quotes.py": "b9b0445898f0dd2c45601191b30471c5af23b861224c0d2c0fd7f49e8d30ef54",
+      "host/localoffice/word/style_inventory.py": "6ad12f932e412fe85158516527ba828411a105f43654fa41a6b011bb0bd5f486",
+      "host/localoffice/worker_guard.py": "cc9408d2d56bf8991f77db210d484dea328f1d5c15595b95c4872b3821a82d03",
+      "workers/openxml/CellFormatting.cs": "e8a6682124f7e55c75a6827062c637ac447d14a67b0033066997f52dbe92f4f6",
+      "workers/openxml/Contents.cs": "b18e40da30bf849ba85c1581f76ff048ff8cca736009b761e87949ffc224dbb1",
+      "workers/openxml/Creation.cs": "5081766ac3e4dd033355fc9c141c93dac09732306168573ec52d2e5740d157fa",
+      "workers/openxml/FieldCaches.cs": "4b30f0c5760584b7d53a6e888d2c4977f6421a18798573820ef5cb24900067aa",
+      "workers/openxml/FieldLiteralText.cs": "61a36934d2fe3eb4cc47d66facfea2b426cff13c62b2b83d683969b483767939",
+      "workers/openxml/Formatting.cs": "750b990dfa1769b2595a37ee75748743808f139bc3bc6028e99129d6386e2280",
+      "workers/openxml/ImageFormatting.cs": "54c2834db213ff063e0029b9376261c5b99ab8c2809b827ab10ee9867bd67cfc",
+      "workers/openxml/ImageLayout.cs": "7fbdddf9e921813c4cd5571ae1e716b2058d36bf703581844f6f7f1310fd8f7d",
+      "workers/openxml/Images.cs": "0789957298b40dc8c23b2a42a1d456afdff3fcb75c61849a6d9d725a38ab8f7b",
+      "workers/openxml/Lists.cs": "b4d9fcdc64f36241759763c7558201c531364d3023a7a78c8a74d44664a24b6f",
+      "workers/openxml/PageFields.cs": "898b4f3ba966e759dc75fcb175479cb6cf43efdd4e15f79643962e5975bc83d8",
+      "workers/openxml/ParagraphDeletion.cs": "43be6d3224541071e8d5008b217eb443fdfc21e6f16781d9f5a61bb444fd3b56",
+      "workers/openxml/Program.cs": "d4a83edd8a83ed3bfffade897d7e36bd87e24677b77aaf255578c14b8c9029d3",
+      "workers/openxml/RowFormatting.cs": "4d441567c23a95f4ad62ef9e2c7dc3f0b6a6eab789391d67eca8ccca418b26c9",
+      "workers/openxml/Sections.cs": "a5216b600c333694cbf29ab8da2147e8565d350177d937d5b94d210f1d28421d",
+      "workers/openxml/Styles.cs": "f096468b361fe5230e00753f0e504d579f621c877550cb60d608648035a9fce8",
+      "workers/openxml/TableFormatting.cs": "63983ae832374242dfcd4aadc49f8e83f8f8e9299d3b7ce120c37dccec5bb4df",
+      "workers/openxml/TableMerging.cs": "ea730353fd6240143b68e4d4455a9edd254665678f98147284e9552a8dcdc39f",
+      "workers/openxml/TableSplitting.cs": "4bfd0469d442ccfd5f1140196e638fe871d8ef7f9c8c95ec921b9391a78fde26",
+      "workers/openxml/Tables.cs": "9a78519ee436c72fd72539159cac01d55a90a9fe12cafb3a8a94a9cf77349ab0",
+      "workers/openxml/TextFormatting.cs": "2690ffd6b69b1682ee93bdec5e8c8cb42912760c404ea7f3d9143bc39a0fda5f"
+    },
+    "model": {
+      "id": "<USER_HOME>/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-Instruct-2507-4bit/snapshots/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "name": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "path": "<USER_HOME>/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-Instruct-2507-4bit/snapshots/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "format": "safetensors",
+      "backend": "mlx",
+      "bytes": 2263022417,
+      "quantization": {
+        "bits": 4,
+        "group_size": 64
+      },
+      "parameters_b": 4.022468096,
+      "parameter_evidence": "index metadata",
+      "architecture": "qwen3",
+      "state": "downloaded",
+      "compatibility": "requires backend probe"
+    },
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "sampling": {
+      "temperature": 0.2,
+      "top_p": 1.0,
+      "top_k": 0,
+      "min_p": 0.0
+    },
+    "document_operations": 0,
+    "ledger_writes": 0,
+    "runs": [
+      {
+        "case": "b1_observed_broad",
+        "arm": "selected_only",
+        "focus_origin": "model",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations."
+          },
+          {
+            "role": "user",
+            "content": "first, exactly \"Síntese — café e inovação.\"; second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; third, exactly \"Conclusão — próximos passos.\". "
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"Síntese — café e inovação.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 425,
+              "completion_tokens": 70,
+              "peak_memory_gb": 2.777613112
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 425,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Síntese — café e inovação."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "Síntese — café e inovação.",
+          "word_count": 5,
+          "word_bound_pass": false,
+          "copied_literal": true
+        },
+        "elapsed_seconds": 2.259450125042349
+      },
+      {
+        "case": "b1_observed_broad",
+        "arm": "focus_and_objective",
+        "focus_origin": "model",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations.\nThe selected focus is a source excerpt, not an exhaustive or semantically verified instruction set. Apply relevant drafting constraints from the complete objective while writing only the requested prose."
+          },
+          {
+            "role": "user",
+            "content": "{\n  \"selected_focus\": \"first, exactly \\\"Síntese — café e inovação.\\\"; second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; third, exactly \\\"Conclusão — próximos passos.\\\". \",\n  \"complete_objective\": \"Create report.docx on A4 portrait with one-inch margins. Use Arial 12 point for all body text, using a named paragraph style. Create exactly three body paragraphs in this order: first, exactly \\\"Síntese — café e inovação.\\\"; second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; third, exactly \\\"Conclusão — próximos passos.\\\". Put a page break before the third paragraph. Do not add a title, other body text, headers, footers, page numbers, tables or images. Stage the document and finish.\"\n}"
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"Síntese — café e inovação.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 618,
+              "completion_tokens": 70,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 618,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Síntese — café e inovação."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "Síntese — café e inovação.",
+          "word_count": 5,
+          "word_bound_pass": false,
+          "copied_literal": true
+        },
+        "elapsed_seconds": 1.97283991612494
+      },
+      {
+        "case": "reordered_observed",
+        "arm": "selected_only",
+        "focus_origin": "model",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations."
+          },
+          {
+            "role": "user",
+            "content": "For the second body paragraph, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation. "
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"Please review the document for accuracy and completeness.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 401,
+              "completion_tokens": 68,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 401,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Please review the document for accuracy and completeness."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "Please review the document for accuracy and completeness.",
+          "word_count": 8,
+          "word_bound_pass": true,
+          "copied_literal": false
+        },
+        "elapsed_seconds": 1.9065182502381504
+      },
+      {
+        "case": "reordered_observed",
+        "arm": "focus_and_objective",
+        "focus_origin": "model",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations.\nThe selected focus is a source excerpt, not an exhaustive or semantically verified instruction set. Apply relevant drafting constraints from the complete objective while writing only the requested prose."
+          },
+          {
+            "role": "user",
+            "content": "{\n  \"selected_focus\": \"For the second body paragraph, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation. \",\n  \"complete_objective\": \"Create report.docx on A4 portrait with one-inch margins. Use Arial 12 point for all body text, using a named paragraph style. For the second body paragraph, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation. For the first body paragraph, copy exactly \\\"Síntese — café e inovação.\\\". For the third body paragraph, copy exactly \\\"Conclusão — próximos passos.\\\". Create only these three body paragraphs. Put a page break before the third paragraph. Do not add a title, other body text, headers, footers, page numbers, tables or images. Stage the document and finish.\"\n}"
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"ask_user\", \"arguments\": {\"text\": \"Please provide the exact neutral sentence of 8–16 words for the second body paragraph.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 604,
+              "completion_tokens": 38,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 604,
+        "action": {
+          "tool": "ask_user",
+          "text": "Please provide the exact neutral sentence of 8–16 words for the second body paragraph."
+        },
+        "status": "non_submission_exit",
+        "elapsed_seconds": 1.2840719581581652
+      },
+      {
+        "case": "distributed_observed",
+        "arm": "selected_only",
+        "focus_origin": "model",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations."
+          },
+          {
+            "role": "user",
+            "content": "For the second paragraph, draft one sentence inviting the reader to review the document. "
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"We invite you to review the document for further insights and details.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 376,
+              "completion_tokens": 72,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 376,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "We invite you to review the document for further insights and details."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "We invite you to review the document for further insights and details.",
+          "word_count": 12,
+          "word_bound_pass": true,
+          "copied_literal": false
+        },
+        "elapsed_seconds": 2.094363708049059
+      },
+      {
+        "case": "distributed_observed",
+        "arm": "focus_and_objective",
+        "focus_origin": "model",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations.\nThe selected focus is a source excerpt, not an exhaustive or semantically verified instruction set. Apply relevant drafting constraints from the complete objective while writing only the requested prose."
+          },
+          {
+            "role": "user",
+            "content": "{\n  \"selected_focus\": \"For the second paragraph, draft one sentence inviting the reader to review the document. \",\n  \"complete_objective\": \"Create report.docx with three body paragraphs. For the first paragraph, copy exactly \\\"Síntese — café e inovação.\\\". For the second paragraph, draft one sentence inviting the reader to review the document. Write that new sentence in English. Use 8–16 words for that sentence. Keep its tone neutral, without claiming a review has already happened or adding factual claims about an organisation. For the third paragraph, copy exactly \\\"Conclusão — próximos passos.\\\". Use Arial 12 point and one-inch margins. Stage the document and finish.\"\n}"
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"We invite you to review the document for further insights.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 542,
+              "completion_tokens": 70,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 542,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "We invite you to review the document for further insights."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "We invite you to review the document for further insights.",
+          "word_count": 10,
+          "word_bound_pass": true,
+          "copied_literal": false
+        },
+        "elapsed_seconds": 2.1593342907726765
+      },
+      {
+        "case": "distributed_portuguese_counterfactual",
+        "arm": "selected_only",
+        "focus_origin": "operator",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations."
+          },
+          {
+            "role": "user",
+            "content": "For the second paragraph, draft one sentence inviting the reader to review the document. "
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"We invite you to review the document for further insights and details.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 376,
+              "completion_tokens": 72,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 376,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "We invite you to review the document for further insights and details."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "We invite you to review the document for further insights and details.",
+          "word_count": 12,
+          "word_bound_pass": false,
+          "copied_literal": false
+        },
+        "elapsed_seconds": 1.8425052920356393
+      },
+      {
+        "case": "distributed_portuguese_counterfactual",
+        "arm": "focus_and_objective",
+        "focus_origin": "operator",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Focused drafting step: write only the newly requested prose within the selected instruction. Do not substitute a passage marked for exact copying for the requested new prose. Document assembly, formatting and completion instructions are handled in the parent task. Perform its requested purpose, language and tone. Call word.submit_draft with the actual text, or ask_user if essential information is missing. Submission retains generated text; it is not source evidence or document completion. No file operations.\nThe selected focus is a source excerpt, not an exhaustive or semantically verified instruction set. Apply relevant drafting constraints from the complete objective while writing only the requested prose."
+          },
+          {
+            "role": "user",
+            "content": "{\n  \"selected_focus\": \"For the second paragraph, draft one sentence inviting the reader to review the document. \",\n  \"complete_objective\": \"Create report.docx with three body paragraphs. For the first paragraph, copy exactly \\\"Síntese — café e inovação.\\\". For the second paragraph, draft one sentence inviting the reader to review the document. Write that new sentence in Portuguese. Use 4–6 words for that sentence. Keep its tone neutral, without claiming a review has already happened or adding factual claims about an organisation. For the third paragraph, copy exactly \\\"Conclusão — próximos passos.\\\". Use Arial 12 point and one-inch margins. Stage the document and finish.\"\n}"
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "word.submit_draft",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ref": {
+                    "const": "df_00000000000000000000000000000000"
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 8000
+                  }
+                },
+                "required": [
+                  "ref",
+                  "text"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "ask_user",
+              "parameters": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            }
+          }
+        ],
+        "raw": "<tool_call>\n{\"name\": \"word.submit_draft\", \"arguments\": {\"ref\": \"df_00000000000000000000000000000000\", \"text\": \"Recomendamos a revisão do documento.\"}}\n</tool_call>",
+        "events": [
+          {
+            "type": "usage",
+            "usage": {
+              "prompt_tokens": 541,
+              "completion_tokens": 69,
+              "peak_memory_gb": 2.994014738
+            }
+          },
+          {
+            "type": "finish",
+            "reason": "stop"
+          }
+        ],
+        "input_tokens": 541,
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Recomendamos a revisão do documento."
+        },
+        "status": "submitted",
+        "observations": {
+          "text": "Recomendamos a revisão do documento.",
+          "word_count": 5,
+          "word_bound_pass": true,
+          "copied_literal": false
+        },
+        "elapsed_seconds": 1.9214701671153307
+      }
+    ],
+    "acceptance": "diagnostic only",
+    "semantic_review": "pending",
+    "elapsed_seconds": 17.777735041920096,
+    "runtime_sources_unchanged": true,
+    "fixture_unchanged": true
+  }
+}

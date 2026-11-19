@@ -1,0 +1,1348 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "fixture": "B1",
+    "fixture_version": 1,
+    "status": "failed",
+    "machine_status": "failed",
+    "review": {
+      "visual": "pending",
+      "draft_semantics": "pending",
+      "reviewer": null,
+      "page_images": [
+        "<SOURCE_CHECKOUT>/docs/benchmarks/word-body-b1-isolated-plan-v2-attempt1/page-1.png",
+        "<SOURCE_CHECKOUT>/docs/benchmarks/word-body-b1-isolated-plan-v2-attempt1/page-2.png"
+      ],
+      "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+      "pdf_hash": "8914de18ab59ae8a37f271b6c3829b726f67b14d64430197f68fb4e3db873a81",
+      "viewed_pages": []
+    },
+    "limits": {
+      "context": 4096,
+      "output_reserve": 768,
+      "safety_reserve": 128,
+      "max_steps": 10,
+      "watchdog_seconds": 150
+    },
+    "efficiency_scope": "Observed diagnostic measurements; not release-efficiency qualification.",
+    "native_constrained": true,
+    "source_planning": true,
+    "creation_review": true,
+    "requirements_planning": true,
+    "focused_drafting": true,
+    "isolated_draft_planning": true,
+    "workflow": "reviewed",
+    "cohort": "isolated_draft_planning_reviewed_v2",
+    "runtime_source_hashes": {
+      "host/localoffice/__init__.py": "fd7f40443a3b6af61422b8db0faf794acf8d3dbec793ddfd0507e08f8033c43b",
+      "host/localoffice/annotations.py": "760f00595526f81c3dfe2129c0814e2fabec71fdac96e4ea7c5848dcb919e8c1",
+      "host/localoffice/assets.py": "601a13617ecccdc78dc47eaed77356bc9695f0ac94ca45d71706b0394488ea72",
+      "host/localoffice/attachments.py": "25519c1afdb5d90d0bd82be1467e2ea15fa93ce43c16f80dbffd1da73de3a59e",
+      "host/localoffice/builtin_skills/word-create/SKILL.md": "dcd63f607fb20b145bdac887a4ead9db70a7936bedb1c2d2830fbacdcfa96ca1",
+      "host/localoffice/builtin_skills/word-edit/SKILL.md": "67dbcb9de639f0a2ea79ed74c80ca712f21913dba32ddcbe8d0152f0395aa3d6",
+      "host/localoffice/chats.py": "6d5ff485c37f13595e30d477278d5c4e427b6a78a178d12da55acb9b4909670e",
+      "host/localoffice/decoding.py": "7bb91305ab7e65c004733fa4e5d8799907d79d6138551f9fd8291bc351bf2eed",
+      "host/localoffice/discovery.py": "ed6e633dc3a966b12f7305741496d57d41e4d1b09c01c06a91147b96a8091a6e",
+      "host/localoffice/draft_budget.py": "abd995d7ff969e80caecc922370f711674a2207a7ceaeb3a790c44f2576cfcf5",
+      "host/localoffice/errors.py": "423fc9b2b5eadbe306f87a78c9dd63ca6bef8961d738494c8c12d1ef23816b90",
+      "host/localoffice/graph.py": "91c712bb521ad2c6ed649af0e03f3b49f683040bcad45e0d7a733ad8a3aa833d",
+      "host/localoffice/memory.py": "7420d6bc51f69f8be7e3f43f138d3c2bcee9f3a12325aa5214cb0c26a559dc28",
+      "host/localoffice/metrics.py": "ae97bd27d39e1a9c23c6e45dc9cc675b4672ca242c80bcdfa71eb8db4616a5ff",
+      "host/localoffice/mlx_worker.py": "fc4e7682669cb8a15497906e1126d7e7c1ec1dfe0eb2d87963a94c7a3439862f",
+      "host/localoffice/model_profiles.py": "4908878d4138cf5dadf0bc9c167d7a972dbb396adc606df26323e71ba02cc8ff",
+      "host/localoffice/native_history.py": "c1a1b16c5101619b05f612beabaaea2a24d988cb9bc673bb74634528a09662e8",
+      "host/localoffice/native_tools.py": "cebdbf65905627267b0b8090c2a98d73d45d136eda2102fe4a85e52b464e3729",
+      "host/localoffice/paths.py": "64140eceeb159b4fc526ba5116f4f757945db669c2167219b57068430327d84c",
+      "host/localoffice/pdf.py": "3028f22475361577c6c59f94f08eff6b3fd9b79183e956fafe2f1b23f1003878",
+      "host/localoffice/pdf_worker.py": "e738c1a4afa5731dd395238e1e9f45f613795497aa0ae5a27efbac44317a851c",
+      "host/localoffice/plugins.py": "01387a0501e2bd1d9454a356dea674a1f25332f341ea184b80c5603329a6e096",
+      "host/localoffice/policy.py": "816d33faa841d3a1cbe60c96772a7050017788afe3d3c8921609c42972db6bc3",
+      "host/localoffice/projects.py": "99e64451a12e2c654d8220144f29b8aa7e5a8a68aaaad44289dcebb1042b9be9",
+      "host/localoffice/providers.py": "e22fba5adf7b7f6891f0fc1a77f223a84a9321c249b5e8ee2792f720093bb4cf",
+      "host/localoffice/recovery.py": "d4684415c8c7f80af4638b0f49ddba0768647535845a26bc26d59001a13084d1",
+      "host/localoffice/removal.py": "1ca5a38ede8811096322c0eb1ec530098f81cff133c9e28df85208dd3f8428bd",
+      "host/localoffice/reviews.py": "d013d0d52b145a34a5b20e4a8183793da704c8bf126ce31c069625f5a1240250",
+      "host/localoffice/runtime.py": "1677de55d4cb18825a57efd4d6bd8964cdfe18f484f977288f97b4d1b8981630",
+      "host/localoffice/sampling.py": "2b8d155c72687d96cdfac36e552c296d76961909607655045223f4b63c9e3590",
+      "host/localoffice/server.py": "cdea8c583db06690afd9ce4672c34d3229d26b0aa258098298d5b06a9b7101e5",
+      "host/localoffice/skills.py": "e326ea3e14d0d52decbb0da3ff100d8f21aa573c75868a70427fc49625f5148b",
+      "host/localoffice/storage.py": "81ad414e36bfd7f2984a838522e91071c62b603154072a0cf1cf7c45335e0e77",
+      "host/localoffice/tool_transport.py": "a6cb6f0b06b086e923d1b2b4f82879c79d19f178dd1dab8569cf3159dd4096c2",
+      "host/localoffice/word/__init__.py": "45a7da73c920761ed09c687bb461a95f5a9df7f0a20f3cc781e86d6fe2152241",
+      "host/localoffice/word/content_coverage.py": "7a2bd59b113d8a51239ca5c88a9571260f44a6429183639d4b040e5580afdbc7",
+      "host/localoffice/word/content_plan.py": "b5759491bed0ca28f7b5a2f9a216d6adbec42c56ea4a04effd779d5f8024769c",
+      "host/localoffice/word/content_plan_repair.py": "120a7de1a514c4c641a54c42267c12dc01f1c00b47246efebb2729e3e66bbdcd",
+      "host/localoffice/word/contracts.py": "00b81a88deed362f8911bf5751be0b51e792e1f8773b7b10b402c696a9a561c8",
+      "host/localoffice/word/creation_blocks.py": "aa8b4c565812b74f048a9c08eef34880ca9a559a291d063d2c3ed863e6ec9019",
+      "host/localoffice/word/creation_effect.py": "5965cbd9bbe4cac91141b18ecfa2248345f4f1e45e60974a5f503274d8f7fc79",
+      "host/localoffice/word/creation_evidence.py": "e19a0067f3e98b77c441c5c424710943e5efac542607bfb489c267d4dcc6f4fb",
+      "host/localoffice/word/creation_identity.py": "4b506d6b86032f1af922ab3b513143f167297c2e0c67e6c48018eb1802fa487c",
+      "host/localoffice/word/creation_repair.py": "e7fdedb6c20108ed32a6cbaf4cac22471d618e6a459844e56d40dff113e3290e",
+      "host/localoffice/word/creation_revision.py": "e347026d38bb5c90cfc1cd2ae8e3d60509d3ce703e00d804f71b7f9aa069a918",
+      "host/localoffice/word/creation_routing.py": "fe340cee83e62fbf920b29d2294edbdff5718e7cd8f0c05d1a23b2f2a00573d0",
+      "host/localoffice/word/creation_styles.py": "76d96b93792f05f74fe94b138261d89434b1d6125c8762e27ed7e48c0e54efa2",
+      "host/localoffice/word/creation_submission.py": "b1d7762fcc0593b8aa3e5bcfe7dce4056d8b8dde39eb5f9ac23c5c99e6e5cbe6",
+      "host/localoffice/word/draft_context.py": "edd8441a5e7c39c61e30dfe799d238af082b729521c565fb130ee7ef2523e168",
+      "host/localoffice/word/draft_fragments.py": "da1813dbce559ddd95fbf88a430e9b58f0960a0d58e09214425b9cbf6d85635b",
+      "host/localoffice/word/draft_parent_context.py": "a66cf65b08f972220b60aed7f42bc83ee0932d6e89b2ce444a1a90b34fa8b0a5",
+      "host/localoffice/word/draft_planning_context.py": "b2cc42e4431aebc3047e1f5dd799b1b0dbf7db3b65f7a35d9fb2e1999734fc2f",
+      "host/localoffice/word/draft_routing.py": "d665343f27f8b71e84c57692baa7b8cf147bd2e099126995ea80148f62116ca1",
+      "host/localoffice/word/draft_runtime_context.py": "a48242a43d8352624f392f3971066628571e9742b84560112db1fc3f03fd6f57",
+      "host/localoffice/word/evidence.py": "99f1efbd55acecf1e5f90b467af5ed790b5632fa772ec5c65f59bc04ba70209c",
+      "host/localoffice/word/export.py": "f43254fd60ee8fb4ffc44a35d7960fd6ed09ed9f544dbe29c75d0464764ad4be",
+      "host/localoffice/word/fields.py": "9975b8d7da78487bc97a5899afa08fe6e0b2202ceadf6f41be8b9672d6b112b1",
+      "host/localoffice/word/guidance.py": "da6850b30f2594fed0bf51a9b9128f2255ac0773d445c09c723235821b64dd61",
+      "host/localoffice/word/objective_evidence.py": "f820d3c555012f8e7f2144f89c5bc9f584d9b02b57128cb4ff89933290931ca8",
+      "host/localoffice/word/page_requirement_projection.py": "ee52f9aa18da79e52ee6753d337876225f070bafc0c9d0e6d0d6cce8bc8619ff",
+      "host/localoffice/word/plugin.py": "f2535b319c6bb63b98d3ef1809433d137519550acda95cf661c04058b22940d6",
+      "host/localoffice/word/progress.py": "6c8776e8e346807e8ba82b6500c32d392e002c52d4b2226d27b7644dcd74654a",
+      "host/localoffice/word/read_context.py": "91871ad7f2531d7b348e85d13d2915e827c2e289a12719b7275dc9f44ecedc40",
+      "host/localoffice/word/receipt_context.py": "83dd3448fa1682194ba86af8e2196b2ecee7607d22bd6c0a7d2346b828ff588b",
+      "host/localoffice/word/render.py": "dc4edee85f4de1eaaf37b84d3e55992bc21391419c1a072edfbb3c377e3927c0",
+      "host/localoffice/word/render_context.py": "bdd391d050fdaf80de24e53bb7da102339513633b8141241a49fb383ed35a3f8",
+      "host/localoffice/word/requirement_checks.py": "29709a355df4935b0a73adfc698d8ee8fe286228414a97922aba6d852bcc94ea",
+      "host/localoffice/word/requirement_context.py": "8c8fb246078a96da4e8e30db3ee914da16506171f855d286d8f1085449f4a080",
+      "host/localoffice/word/requirement_plan_context.py": "dd1207aa0ffc58bf00dd9ab27cdac8f2852236a2e08f6f5654828f89dac90902",
+      "host/localoffice/word/requirements.py": "c5c772767ca7c60501b506fecf270727b5ba9598b6557dd2f1bececfe362e5d3",
+      "host/localoffice/word/routing.py": "537ef9b3d266c2fda2785a2e4c7454c2534ebcf06377514a81422df6c24787e9",
+      "host/localoffice/word/source_quotes.py": "b9b0445898f0dd2c45601191b30471c5af23b861224c0d2c0fd7f49e8d30ef54",
+      "host/localoffice/word/style_inventory.py": "6ad12f932e412fe85158516527ba828411a105f43654fa41a6b011bb0bd5f486",
+      "host/localoffice/worker_guard.py": "cc9408d2d56bf8991f77db210d484dea328f1d5c15595b95c4872b3821a82d03",
+      "workers/openxml/CellFormatting.cs": "e8a6682124f7e55c75a6827062c637ac447d14a67b0033066997f52dbe92f4f6",
+      "workers/openxml/Contents.cs": "b18e40da30bf849ba85c1581f76ff048ff8cca736009b761e87949ffc224dbb1",
+      "workers/openxml/Creation.cs": "5081766ac3e4dd033355fc9c141c93dac09732306168573ec52d2e5740d157fa",
+      "workers/openxml/FieldCaches.cs": "4b30f0c5760584b7d53a6e888d2c4977f6421a18798573820ef5cb24900067aa",
+      "workers/openxml/FieldLiteralText.cs": "61a36934d2fe3eb4cc47d66facfea2b426cff13c62b2b83d683969b483767939",
+      "workers/openxml/Formatting.cs": "750b990dfa1769b2595a37ee75748743808f139bc3bc6028e99129d6386e2280",
+      "workers/openxml/ImageFormatting.cs": "54c2834db213ff063e0029b9376261c5b99ab8c2809b827ab10ee9867bd67cfc",
+      "workers/openxml/ImageLayout.cs": "7fbdddf9e921813c4cd5571ae1e716b2058d36bf703581844f6f7f1310fd8f7d",
+      "workers/openxml/Images.cs": "0789957298b40dc8c23b2a42a1d456afdff3fcb75c61849a6d9d725a38ab8f7b",
+      "workers/openxml/Lists.cs": "b4d9fcdc64f36241759763c7558201c531364d3023a7a78c8a74d44664a24b6f",
+      "workers/openxml/PageFields.cs": "898b4f3ba966e759dc75fcb175479cb6cf43efdd4e15f79643962e5975bc83d8",
+      "workers/openxml/ParagraphDeletion.cs": "43be6d3224541071e8d5008b217eb443fdfc21e6f16781d9f5a61bb444fd3b56",
+      "workers/openxml/Program.cs": "d4a83edd8a83ed3bfffade897d7e36bd87e24677b77aaf255578c14b8c9029d3",
+      "workers/openxml/RowFormatting.cs": "4d441567c23a95f4ad62ef9e2c7dc3f0b6a6eab789391d67eca8ccca418b26c9",
+      "workers/openxml/Sections.cs": "a5216b600c333694cbf29ab8da2147e8565d350177d937d5b94d210f1d28421d",
+      "workers/openxml/Styles.cs": "f096468b361fe5230e00753f0e504d579f621c877550cb60d608648035a9fce8",
+      "workers/openxml/TableFormatting.cs": "63983ae832374242dfcd4aadc49f8e83f8f8e9299d3b7ce120c37dccec5bb4df",
+      "workers/openxml/TableMerging.cs": "ea730353fd6240143b68e4d4455a9edd254665678f98147284e9552a8dcdc39f",
+      "workers/openxml/TableSplitting.cs": "4bfd0469d442ccfd5f1140196e638fe871d8ef7f9c8c95ec921b9391a78fde26",
+      "workers/openxml/Tables.cs": "9a78519ee436c72fd72539159cac01d55a90a9fe12cafb3a8a94a9cf77349ab0",
+      "workers/openxml/TextFormatting.cs": "2690ffd6b69b1682ee93bdec5e8c8cb42912760c404ea7f3d9143bc39a0fda5f",
+      "docs/benchmarks/word-body-iteration-fixtures.md": "d955ad8c9c5597e08d4f0b139bf26432f92f859e274c242012258a7af4a7177b",
+      "scripts/benchmark_word_body.py": "86c4e4c5eb91a0dab39495d848a8606494ba3f645162e39cac4c32133754a1e7",
+      "scripts/benchmark_word_creation_cases.py": "ade311d92cc6c03f8e7f1c909170fac85309a5a68b0c5211b335dfaa18cc77a1"
+    },
+    "runtime_fingerprint": "2d081ee45b9d86f65fbd3af820ab40a3b2637861fedb8b631f8c9f05d4c7d0b5",
+    "focused_verifier_version": 2,
+    "prompt": "Create report.docx on A4 portrait with one-inch margins. Use Arial 12 point for all body text, using a named paragraph style. Create exactly three body paragraphs in this order: first, exactly \"Síntese — café e inovação.\"; second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; third, exactly \"Conclusão — próximos passos.\". Put a page break before the third paragraph. Do not add a title, other body text, headers, footers, page numbers, tables or images. Stage the document and finish.",
+    "prompt_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+    "spec_hash": "d955ad8c9c5597e08d4f0b139bf26432f92f859e274c242012258a7af4a7177b",
+    "harness_hash": "86c4e4c5eb91a0dab39495d848a8606494ba3f645162e39cac4c32133754a1e7",
+    "model": {
+      "id": "<USER_HOME>/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-Instruct-2507-4bit/snapshots/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "name": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "path": "<USER_HOME>/.cache/huggingface/hub/models--mlx-community--Qwen3-4B-Instruct-2507-4bit/snapshots/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "format": "safetensors",
+      "backend": "mlx",
+      "bytes": 2263022417,
+      "quantization": {
+        "bits": 4,
+        "group_size": 64
+      },
+      "parameters_b": 4.022468096,
+      "parameter_evidence": "index metadata",
+      "architecture": "qwen3",
+      "state": "downloaded",
+      "compatibility": "requires backend probe"
+    },
+    "project": "<PRIVATE_TEMP_PATH>",
+    "target_initially_absent": true,
+    "sampling": {
+      "temperature": 0.2,
+      "top_p": 1.0,
+      "top_k": 0,
+      "min_p": 0.0
+    },
+    "task_id": "7a0bebd8-7c5d-4119-9ba8-f23262876370",
+    "task_status": "failed",
+    "error": "AssertionError('Task did not complete: failed')",
+    "events": [
+      {
+        "seq": 1,
+        "type": "generating",
+        "step": 1
+      },
+      {
+        "seq": 2,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 3108,
+          "completion_tokens": 95,
+          "peak_memory_gb": 3.378965736
+        }
+      },
+      {
+        "seq": 3,
+        "type": "tool",
+        "tool": "word.select_source_quotes",
+        "result": {
+          "status": "planned",
+          "document_changed": false,
+          "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+          "literals": [
+            {
+              "ref": "ct_59212ec0744c705a06543532",
+              "role": "paragraph",
+              "text": "Síntese — café e inovação.",
+              "source": "objective",
+              "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+              "start": 194,
+              "end": 220
+            },
+            {
+              "ref": "ct_9db31bd3ad97ec8f015a6636",
+              "role": "paragraph",
+              "text": "Conclusão — próximos passos.",
+              "source": "objective",
+              "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+              "start": 435,
+              "end": 463
+            }
+          ],
+          "active_plan": {
+            "version": 1,
+            "generation": 1,
+            "count": 2
+          },
+          "limitation": "Exact source binding does not prove these passages fully represent the user intent."
+        }
+      },
+      {
+        "seq": 4,
+        "type": "generating",
+        "step": 2
+      },
+      {
+        "seq": 5,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 2824,
+          "completion_tokens": 251,
+          "peak_memory_gb": 3.378965736
+        }
+      },
+      {
+        "seq": 6,
+        "type": "tool",
+        "tool": "word.plan_requirements",
+        "result": {
+          "status": "planned",
+          "generation": 1,
+          "count": 4,
+          "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+          "coverage": "unassessed",
+          "interpretation": "model_selected",
+          "document_changed": false,
+          "supersedes_generation": null
+        }
+      },
+      {
+        "seq": 7,
+        "type": "generating",
+        "step": 3
+      },
+      {
+        "seq": 8,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 1231,
+          "completion_tokens": 94,
+          "peak_memory_gb": 3.378965736
+        }
+      },
+      {
+        "seq": 9,
+        "type": "tool",
+        "tool": "word.plan_draft",
+        "result": {
+          "status": "pending",
+          "ref": "df_ac4e00876b214b968105e09a04b640bd",
+          "generation": 1,
+          "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+          "document_changed": false,
+          "supersedes_generation": null,
+          "interpretation": "model_selected",
+          "semantic_validation": "unassessed"
+        }
+      },
+      {
+        "seq": 10,
+        "type": "generating",
+        "step": 4
+      },
+      {
+        "seq": 11,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 422,
+          "completion_tokens": 67,
+          "peak_memory_gb": 3.378965736
+        }
+      },
+      {
+        "seq": 12,
+        "type": "tool",
+        "tool": "word.submit_draft",
+        "result": {
+          "status": "drafted",
+          "ref": "df_ac4e00876b214b968105e09a04b640bd",
+          "generation": 1,
+          "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+          "document_changed": false,
+          "supersedes_generation": null,
+          "interpretation": "model_selected",
+          "semantic_validation": "unassessed"
+        }
+      },
+      {
+        "seq": 13,
+        "type": "generating",
+        "step": 5
+      },
+      {
+        "seq": 14,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 3100,
+          "completion_tokens": 182,
+          "peak_memory_gb": 3.378965736
+        }
+      },
+      {
+        "seq": 15,
+        "type": "tool",
+        "tool": "word.prepare_creation",
+        "result": {
+          "block_layout": {
+            "block_count": 3,
+            "page_break_before": [
+              2
+            ],
+            "paragraphs": [
+              0,
+              1,
+              2
+            ],
+            "standalone_breaks": []
+          },
+          "declared_styles": [
+            "Normal"
+          ],
+          "document_changed": false,
+          "instruction": "Compare requested text, word counts, typography, page geometry and breaks against these facts. Correct mismatches before finalizing; defaults and valid structure do not prove intent coverage. Geometry: 1440 twips/inch. Use revise_creation for compact content/design changes; prepare_creation replaces the whole proposal. Summary fields are read-only; edit blocks/styles/page via tools.",
+          "missing_styles": [],
+          "proposed_design": {
+            "items": [
+              {
+                "font": "Arial",
+                "implicit_default": true,
+                "size_points": 11,
+                "style": "Normal"
+              },
+              {
+                "defaults": [
+                  "header_distance_twips",
+                  "footer_distance_twips"
+                ],
+                "page_twips": {
+                  "footer_distance_twips": 567,
+                  "header_distance_twips": 567,
+                  "height_twips": 16838,
+                  "margin_twips": 1440,
+                  "width_twips": 11906
+                }
+              }
+            ],
+            "omitted": false,
+            "presence": "verified",
+            "scope": "selected proposal properties; not rendered",
+            "style_count": 0
+          },
+          "proposed_literals": {
+            "items": [
+              {
+                "slot": "blocks.0.text",
+                "text": "Síntese — café e inovação.",
+                "word_count": 5
+              },
+              {
+                "slot": "blocks.1.text",
+                "text": "Please review the document for clarity and completeness.",
+                "word_count": 8
+              },
+              {
+                "slot": "blocks.2.text",
+                "text": "Conclusão — próximos passos.",
+                "word_count": 4
+              }
+            ],
+            "omitted": false,
+            "word_count_basis": "unicode_whitespace_split"
+          },
+          "ref": "cr_fe9fe8fcb9a64823b66848532cc25e89",
+          "selected_requirements": {
+            "count": 4,
+            "coverage": "unassessed",
+            "failed": 1,
+            "generation": 1,
+            "interpretation": "model_selected",
+            "items": [
+              {
+                "actual": 11,
+                "block_index": 0,
+                "expected": 12.0,
+                "index": 1,
+                "kind": "paragraph_font_size",
+                "paragraph_index": 0,
+                "status": "mismatch",
+                "unit": "pt"
+              }
+            ],
+            "items_scope": "failures",
+            "matched": 3,
+            "omitted_count": 0,
+            "quantity_rule": "nearest_twip_half_up",
+            "status": "mismatch"
+          },
+          "status": "prepared"
+        }
+      },
+      {
+        "seq": 16,
+        "type": "context_recycled",
+        "operations": [
+          "edit_creation_blocks",
+          "finalize_creation"
+        ],
+        "retained_operations": [
+          "edit_creation_styles"
+        ],
+        "evicted_read_tools": [],
+        "reason": "fresh_retained_proposal"
+      },
+      {
+        "seq": 17,
+        "type": "generating",
+        "step": 6
+      },
+      {
+        "seq": 18,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 3108,
+          "completion_tokens": 80,
+          "peak_memory_gb": 3.37927707
+        }
+      },
+      {
+        "seq": 19,
+        "type": "tool",
+        "tool": "word.edit_creation_styles",
+        "result": {
+          "ref": "cr_8d3ca92cb686496aa0b7fc274497218c",
+          "status": "prepared",
+          "document_changed": false,
+          "missing_styles": [],
+          "declared_styles": [
+            "Normal"
+          ],
+          "proposed_literals": {
+            "items": [
+              {
+                "slot": "blocks.0.text",
+                "text": "Síntese — café e inovação.",
+                "word_count": 5
+              },
+              {
+                "slot": "blocks.1.text",
+                "text": "Please review the document for clarity and completeness.",
+                "word_count": 8
+              },
+              {
+                "slot": "blocks.2.text",
+                "text": "Conclusão — próximos passos.",
+                "word_count": 4
+              }
+            ],
+            "omitted": false,
+            "word_count_basis": "unicode_whitespace_split"
+          },
+          "instruction": "Compare requested text, word counts, typography, page geometry and breaks against these facts. Correct mismatches before finalizing; defaults and valid structure do not prove intent coverage. Geometry: 1440 twips/inch. Use revise_creation for compact content/design changes; prepare_creation replaces the whole proposal. Summary fields are read-only; edit blocks/styles/page via tools.",
+          "edit_effect": {
+            "changed": [
+              "styles"
+            ],
+            "omitted_count": 0,
+            "proposal_changed": true,
+            "scope": "proposal_data_only",
+            "unchanged": []
+          },
+          "proposed_design": {
+            "scope": "selected proposal properties; not rendered",
+            "presence": "unknown",
+            "style_count": 1,
+            "items": [
+              {
+                "slot": "styles.0",
+                "style": "Normal",
+                "font": "Arial",
+                "size_points": 12.0
+              },
+              {
+                "page_twips": {
+                  "width_twips": 11906,
+                  "height_twips": 16838,
+                  "margin_twips": 1440,
+                  "header_distance_twips": 567,
+                  "footer_distance_twips": 567
+                }
+              }
+            ],
+            "omitted": false
+          },
+          "block_layout": {
+            "block_count": 3,
+            "paragraphs": [
+              0,
+              1,
+              2
+            ],
+            "page_break_before": [
+              2
+            ],
+            "standalone_breaks": []
+          },
+          "selected_requirements": {
+            "status": "all_selected_pass",
+            "coverage": "unassessed",
+            "interpretation": "model_selected",
+            "generation": 1,
+            "count": 4,
+            "matched": 4,
+            "failed": 0,
+            "items_scope": "selected",
+            "quantity_rule": "nearest_twip_half_up",
+            "items": [
+              {
+                "index": 0,
+                "kind": "page_geometry",
+                "field": "margin",
+                "path": "page.margin_twips",
+                "unit": "twip",
+                "status": "pass",
+                "expected": 1440,
+                "actual": 1440
+              },
+              {
+                "index": 1,
+                "kind": "paragraph_font_size",
+                "paragraph_index": 0,
+                "block_index": 0,
+                "unit": "pt",
+                "status": "pass",
+                "expected": 12.0,
+                "actual": 12.0
+              },
+              {
+                "index": 2,
+                "kind": "paragraph_page_break",
+                "paragraph_index": 2,
+                "block_index": 2,
+                "status": "pass",
+                "expected": true,
+                "actual": true
+              }
+            ],
+            "omitted_count": 1
+          }
+        }
+      },
+      {
+        "seq": 20,
+        "type": "context_recycled",
+        "operations": [
+          "edit_creation_blocks"
+        ],
+        "retained_operations": [
+          "finalize_creation",
+          "revise_creation"
+        ],
+        "evicted_read_tools": [],
+        "reason": "fresh_retained_proposal"
+      },
+      {
+        "seq": 21,
+        "type": "generating",
+        "step": 7
+      },
+      {
+        "seq": 22,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 3064,
+          "completion_tokens": 84,
+          "peak_memory_gb": 3.37927707
+        }
+      },
+      {
+        "seq": 23,
+        "type": "tool",
+        "tool": "word.revise_creation",
+        "result": {
+          "ref": "cr_dffee2871fd440338303bd7a20beb48d",
+          "status": "prepared",
+          "document_changed": false,
+          "missing_styles": [],
+          "declared_styles": [
+            "Normal"
+          ],
+          "proposed_literals": {
+            "items": [
+              {
+                "slot": "blocks.0.text",
+                "text": "Síntese — café e inovação.",
+                "word_count": 5
+              },
+              {
+                "slot": "blocks.1.text",
+                "text": "Please review the document for clarity and completeness.",
+                "word_count": 8
+              },
+              {
+                "slot": "blocks.2.text",
+                "text": "Conclusão — próximos passos.",
+                "word_count": 4
+              }
+            ],
+            "omitted": false,
+            "word_count_basis": "unicode_whitespace_split"
+          },
+          "instruction": "Compare requested text, word counts, typography, page geometry and breaks against these facts. Correct mismatches before finalizing; defaults and valid structure do not prove intent coverage. Geometry: 1440 twips/inch. Use revise_creation for compact content/design changes; prepare_creation replaces the whole proposal. Last edit changed nothing. Do not repeat unchanged edits. Review requested meaning, tone and remaining conditions; finalize_creation only if satisfied, otherwise revise actual differences. Selected numeric checks do not certify meaning. Summary fields are read-only; edit blocks/styles/page via tools.",
+          "edit_effect": {
+            "changed": [],
+            "omitted_count": 0,
+            "proposal_changed": false,
+            "scope": "proposal_data_only",
+            "unchanged": [
+              "blocks.1.text"
+            ]
+          },
+          "proposed_design": {
+            "scope": "selected proposal properties; not rendered",
+            "presence": "unknown",
+            "style_count": 1,
+            "items": [
+              {
+                "slot": "styles.0",
+                "style": "Normal",
+                "font": "Arial",
+                "size_points": 12.0
+              },
+              {
+                "page_twips": {
+                  "width_twips": 11906,
+                  "height_twips": 16838,
+                  "margin_twips": 1440,
+                  "header_distance_twips": 567,
+                  "footer_distance_twips": 567
+                }
+              }
+            ],
+            "omitted": false
+          },
+          "block_layout": {
+            "block_count": 3,
+            "paragraphs": [
+              0,
+              1,
+              2
+            ],
+            "page_break_before": [
+              2
+            ],
+            "standalone_breaks": []
+          },
+          "selected_requirements": {
+            "status": "all_selected_pass",
+            "coverage": "unassessed",
+            "interpretation": "model_selected",
+            "generation": 1,
+            "count": 4,
+            "matched": 4,
+            "failed": 0,
+            "items_scope": "selected",
+            "quantity_rule": "nearest_twip_half_up",
+            "items": [
+              {
+                "index": 0,
+                "kind": "page_geometry",
+                "field": "margin",
+                "path": "page.margin_twips",
+                "unit": "twip",
+                "status": "pass",
+                "expected": 1440,
+                "actual": 1440
+              },
+              {
+                "index": 1,
+                "kind": "paragraph_font_size",
+                "paragraph_index": 0,
+                "block_index": 0,
+                "unit": "pt",
+                "status": "pass",
+                "expected": 12.0,
+                "actual": 12.0
+              },
+              {
+                "index": 2,
+                "kind": "paragraph_page_break",
+                "paragraph_index": 2,
+                "block_index": 2,
+                "status": "pass",
+                "expected": true,
+                "actual": true
+              }
+            ],
+            "omitted_count": 1
+          }
+        }
+      },
+      {
+        "seq": 24,
+        "type": "context_recycled",
+        "operations": [
+          "edit_creation_blocks"
+        ],
+        "retained_operations": [
+          "finalize_creation",
+          "revise_creation"
+        ],
+        "evicted_read_tools": [],
+        "reason": "fresh_retained_proposal"
+      },
+      {
+        "seq": 25,
+        "type": "generating",
+        "step": 8
+      },
+      {
+        "seq": 26,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 3098,
+          "completion_tokens": 131,
+          "peak_memory_gb": 3.37927707
+        }
+      },
+      {
+        "seq": 27,
+        "type": "tool",
+        "tool": "word.finalize_creation",
+        "result": {
+          "creation_verification": {
+            "scope": "XML only; no intent/vision certification",
+            "omitted": true,
+            "counts": {
+              "content_control": 0,
+              "paragraph": 3,
+              "table": 0,
+              "unsupported_block": 0
+            },
+            "body": [
+              {
+                "xml_block_index": 0,
+                "text": "Síntese — café e inovação.",
+                "style": "Normal"
+              },
+              {
+                "xml_block_index": 1,
+                "text": "Please review the document for clarity and compl",
+                "text_omitted": true,
+                "style": "Normal"
+              },
+              {
+                "xml_block_index": 2,
+                "text": "Conclusão — próximos passos.",
+                "style": "Normal",
+                "page_break_before": true
+              }
+            ],
+            "styles": [
+              {
+                "id": "Normal",
+                "fonts": {
+                  "ascii": "Arial",
+                  "hAnsi": "Arial"
+                },
+                "size_half_points": "24"
+              }
+            ],
+            "section_layout": [
+              {
+                "section": 0,
+                "page_size": {
+                  "h": "16838",
+                  "orient": "portrait",
+                  "w": "11906"
+                },
+                "page_margins": {
+                  "bottom": "1440",
+                  "footer": "567",
+                  "gutter": "0",
+                  "header": "567",
+                  "left": "1440",
+                  "right": "1440",
+                  "top": "1440"
+                }
+              }
+            ]
+          },
+          "receipt_id": "e85eb81f-f00e-4097-bf15-1cc77d32e569",
+          "status": "validated",
+          "input_revision": null,
+          "candidate_revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+          "results": []
+        }
+      },
+      {
+        "seq": 28,
+        "type": "rendering",
+        "path": "report.docx",
+        "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9"
+      },
+      {
+        "seq": 29,
+        "type": "candidate",
+        "path": "report.docx",
+        "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+        "render": {
+          "path": "report.docx",
+          "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+          "pdf_hash": "8914de18ab59ae8a37f271b6c3829b726f67b14d64430197f68fb4e3db873a81",
+          "pages": 2,
+          "configuration": {
+            "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+            "filter": "writer_pdf_Export",
+            "fonts": "834807d1e9b411b244814af774ed23b35333542d69e00550a3658af891b32732",
+            "adapter_version": 5
+          },
+          "warnings": [
+            "LibreOffice rendering; minor Microsoft Word differences are accepted.",
+            "Font substitution is not yet automatically diagnosed."
+          ],
+          "cached": false
+        }
+      },
+      {
+        "seq": 30,
+        "type": "generating",
+        "step": 9
+      },
+      {
+        "seq": 31,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 2944,
+          "completion_tokens": 37,
+          "peak_memory_gb": 3.37927707
+        }
+      },
+      {
+        "seq": 32,
+        "type": "tool_error",
+        "code": "context_capacity",
+        "message": "Load exactly one requested operation next; load the remaining operations later. Preserve the full task scope; the prior selection is unchanged."
+      },
+      {
+        "seq": 33,
+        "type": "generating",
+        "step": 10
+      },
+      {
+        "seq": 34,
+        "type": "usage",
+        "usage": {
+          "prompt_tokens": 3098,
+          "completion_tokens": 99,
+          "peak_memory_gb": 3.37927707
+        }
+      },
+      {
+        "seq": 35,
+        "type": "tool",
+        "tool": "word.find_text",
+        "result": {
+          "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+          "matches": [
+            {
+              "id": "paragraph:1",
+              "hash": "caf422973a210249b58cc7d0c657ef8b976310fc2f73ba77a68529d0f2f21f83",
+              "start": 0,
+              "end": 26,
+              "text": "Síntese — café e inovação.",
+              "excerpt_offset": 0,
+              "total_chars": 26,
+              "evidence_ref": "ev_0c28d7aa423c452d"
+            }
+          ],
+          "next_cursor": null,
+          "search_scope": "main",
+          "scope": "Main document paragraph text, including table cells; headers/footers are not searched",
+          "path": "report.docx",
+          "working": true
+        }
+      },
+      {
+        "seq": 36,
+        "type": "error",
+        "code": "step_limit",
+        "message": "Task reached the bounded step limit; review before continuing."
+      },
+      {
+        "seq": 37,
+        "type": "settled",
+        "status": "paused"
+      }
+    ],
+    "focused_draft_state": {
+      "ref": "df_ac4e00876b214b968105e09a04b640bd",
+      "generation": 1,
+      "status": "drafted",
+      "instruction": "first, exactly \"Síntese — café e inovação.\"; second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; third, exactly \"Conclusão — próximos passos.\". ",
+      "text": "Síntese — café e inovação.",
+      "semantic_validation": "unassessed"
+    },
+    "metrics": {
+      "task_id": "7a0bebd8-7c5d-4119-9ba8-f23262876370",
+      "model_calls": 10,
+      "tool_calls": 10,
+      "repair_events": 1,
+      "normalization_events": 0,
+      "usage_complete": true,
+      "input_tokens": 25997,
+      "output_tokens": 1120,
+      "observations": [
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 3108,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 15.95580912521109,
+          "finish_reason": "stop",
+          "request_bytes": 11933,
+          "response_bytes": 216,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 3246,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 1,
+          "usage": {
+            "completion_tokens": 95,
+            "peak_memory_gb": 3.378965736,
+            "prompt_tokens": 3108
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.0035915831103920937,
+          "request_bytes": 216,
+          "response_bytes": 737,
+          "status": "completed",
+          "tool": "word.select_source_quotes"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 2824,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 11.176841540727764,
+          "finish_reason": "stop",
+          "request_bytes": 10810,
+          "response_bytes": 653,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 2741,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 2,
+          "usage": {
+            "completion_tokens": 251,
+            "peak_memory_gb": 3.378965736,
+            "prompt_tokens": 2824
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.0016540000215172768,
+          "request_bytes": 653,
+          "response_bytes": 238,
+          "status": "completed",
+          "tool": "word.plan_requirements"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 1231,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 3.458129500038922,
+          "finish_reason": "stop",
+          "request_bytes": 3951,
+          "response_bytes": 198,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 1396,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 3,
+          "usage": {
+            "completion_tokens": 94,
+            "peak_memory_gb": 3.378965736,
+            "prompt_tokens": 1231
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.0004193750210106373,
+          "request_bytes": 198,
+          "response_bytes": 283,
+          "status": "completed",
+          "tool": "word.plan_draft"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 422,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 2.775976875331253,
+          "finish_reason": "stop",
+          "request_bytes": 1374,
+          "response_bytes": 159,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 474,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 4,
+          "usage": {
+            "completion_tokens": 67,
+            "peak_memory_gb": 3.378965736,
+            "prompt_tokens": 422
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.0017534582875669003,
+          "request_bytes": 159,
+          "response_bytes": 283,
+          "status": "completed",
+          "tool": "word.submit_draft"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 3100,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 32.1583982501179,
+          "finish_reason": "stop",
+          "request_bytes": 11065,
+          "response_bytes": 612,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 6052,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 5,
+          "usage": {
+            "completion_tokens": 182,
+            "peak_memory_gb": 3.378965736,
+            "prompt_tokens": 3100
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.02500670775771141,
+          "request_bytes": 612,
+          "response_bytes": 1794,
+          "status": "completed",
+          "tool": "word.prepare_creation"
+        },
+        {
+          "kind": "context_recycle",
+          "evicted_operations": [
+            "edit_creation_blocks",
+            "finalize_creation"
+          ],
+          "evicted_read_tools": [],
+          "input_tokens": 3108,
+          "preserved": "objective, scope, current proposal/requirements or revision, ledger and latest evidence",
+          "reason": "fresh_retained_proposal",
+          "retained_operations": [
+            "edit_creation_styles"
+          ],
+          "status": "completed"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 3108,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 10.326397208031267,
+          "finish_reason": "stop",
+          "request_bytes": 12222,
+          "response_bytes": 207,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 1530,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 6,
+          "usage": {
+            "completion_tokens": 80,
+            "peak_memory_gb": 3.37927707,
+            "prompt_tokens": 3108
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.006939083803445101,
+          "request_bytes": 207,
+          "response_bytes": 2121,
+          "status": "completed",
+          "tool": "word.edit_creation_styles"
+        },
+        {
+          "kind": "context_recycle",
+          "evicted_operations": [
+            "edit_creation_blocks"
+          ],
+          "evicted_read_tools": [],
+          "input_tokens": 3064,
+          "preserved": "objective, scope, current proposal/requirements or revision, ledger and latest evidence",
+          "reason": "fresh_retained_proposal",
+          "retained_operations": [
+            "finalize_creation",
+            "revise_creation"
+          ],
+          "status": "completed"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 3064,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 14.651965333148837,
+          "finish_reason": "stop",
+          "request_bytes": 12362,
+          "response_bytes": 240,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 2385,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 7,
+          "usage": {
+            "completion_tokens": 84,
+            "peak_memory_gb": 3.37927707,
+            "prompt_tokens": 3064
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.010958458296954632,
+          "request_bytes": 240,
+          "response_bytes": 2366,
+          "status": "completed",
+          "tool": "word.revise_creation"
+        },
+        {
+          "kind": "context_recycle",
+          "evicted_operations": [
+            "edit_creation_blocks"
+          ],
+          "evicted_read_tools": [],
+          "input_tokens": 3098,
+          "preserved": "objective, scope, current proposal/requirements or revision, ledger and latest evidence",
+          "reason": "fresh_retained_proposal",
+          "retained_operations": [
+            "finalize_creation",
+            "revise_creation"
+          ],
+          "status": "completed"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 3098,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 15.536822707857937,
+          "finish_reason": "stop",
+          "request_bytes": 12642,
+          "response_bytes": 278,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 2385,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 8,
+          "usage": {
+            "completion_tokens": 131,
+            "peak_memory_gb": 3.37927707,
+            "prompt_tokens": 3098
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.25994175020605326,
+          "request_bytes": 278,
+          "response_bytes": 981,
+          "status": "completed",
+          "tool": "word.finalize_creation"
+        },
+        {
+          "kind": "render",
+          "cached": false,
+          "elapsed_seconds": 2.6400044159963727,
+          "path": "report.docx",
+          "pdf_hash": "8914de18ab59ae8a37f271b6c3829b726f67b14d64430197f68fb4e3db873a81",
+          "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+          "status": "completed"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 2944,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 4.543909041211009,
+          "finish_reason": "stop",
+          "request_bytes": 10686,
+          "response_bytes": 163,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 3477,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 9,
+          "usage": {
+            "completion_tokens": 37,
+            "peak_memory_gb": 3.37927707,
+            "prompt_tokens": 2944
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.11592750018462539,
+          "request_bytes": 163,
+          "status": "failed",
+          "tool": "word.load_tools"
+        },
+        {
+          "kind": "repair",
+          "code": "context_capacity",
+          "status": "recorded"
+        },
+        {
+          "kind": "inference",
+          "counted_prompt_tokens": 3098,
+          "decoding_scope": "Experimental native wrapper/name/argument structure; bounds and semantics validated by host",
+          "elapsed_seconds": 4.49265362508595,
+          "finish_reason": "stop",
+          "request_bytes": 11551,
+          "response_bytes": 214,
+          "sampling": {
+            "min_p": 0.0,
+            "temperature": 0.2,
+            "top_k": 0,
+            "top_p": 1.0
+          },
+          "schema_bytes": 3477,
+          "schema_transport": "native tool definitions in tokenizer template; experimental constrained generation",
+          "status": "completed",
+          "step": 10,
+          "usage": {
+            "completion_tokens": 99,
+            "peak_memory_gb": 3.37927707,
+            "prompt_tokens": 3098
+          }
+        },
+        {
+          "kind": "tool",
+          "elapsed_seconds": 0.12990970769897103,
+          "request_bytes": 214,
+          "response_bytes": 493,
+          "status": "completed",
+          "tool": "word.find_text"
+        }
+      ]
+    },
+    "selected_skill": {
+      "name": "word-create",
+      "source_hash": "dcd63f607fb20b145bdac887a4ead9db70a7936bedb1c2d2830fbacdcfa96ca1"
+    },
+    "candidate": {
+      "path": "report.docx",
+      "operation_id": "e85eb81f-f00e-4097-bf15-1cc77d32e569",
+      "base_hash": null,
+      "candidate_hash": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9"
+    },
+    "candidate_file": "<SOURCE_CHECKOUT>/docs/benchmarks/word-body-b1-isolated-plan-v2-attempt1/candidate.docx",
+    "render": {
+      "path": "report.docx",
+      "revision": "bff33942472a968da6c8df5c29386c8e6360ea720906dedeccf0f74819a679e9",
+      "pdf_hash": "8914de18ab59ae8a37f271b6c3829b726f67b14d64430197f68fb4e3db873a81",
+      "pages": 2,
+      "configuration": {
+        "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+        "filter": "writer_pdf_Export",
+        "fonts": "834807d1e9b411b244814af774ed23b35333542d69e00550a3658af891b32732",
+        "adapter_version": 5
+      },
+      "warnings": [
+        "LibreOffice rendering; minor Microsoft Word differences are accepted.",
+        "Font substitution is not yet automatically diagnosed."
+      ],
+      "cached": false
+    },
+    "pdf_file": "<SOURCE_CHECKOUT>/docs/benchmarks/word-body-b1-isolated-plan-v2-attempt1/preview.pdf",
+    "runtime_sources_unchanged": true,
+    "elapsed_seconds": 121.85266329208389
+  }
+}

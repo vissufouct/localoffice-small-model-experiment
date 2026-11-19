@@ -1,0 +1,7 @@
+case,arm,criterion,outcome,extra_segments,omitted_segments,draft_assessment,complete_task_acceptance,source
+b1_adjacency,range,exact_scope,FAIL,s06,,pass: English invitation within8–16words; no completed-review or factual organisation claim,NOT_ASSESSED,../evidence/draft-scope-interface-v1-attempt1-review.json
+b1_adjacency,segment_or_range,exact_scope,PASS,,,pass: English invitation within8–16words; no completed-review or factual organisation claim,NOT_ASSESSED,../evidence/draft-scope-interface-v1-attempt1-review.json
+reordered,range,exact_scope,PASS,,,pass: English invitation within8–16words; no completed-review or factual organisation claim,NOT_ASSESSED,../evidence/draft-scope-interface-v1-attempt1-review.json
+reordered,segment_or_range,exact_scope,PASS,,,pass: English invitation within8–16words; no completed-review or factual organisation claim,NOT_ASSESSED,../evidence/draft-scope-interface-v1-attempt1-review.json
+distributed,range,exact_scope,FAIL,,s05;s06,pass: English invitation within8–16words; no completed-review or factual organisation claim,NOT_ASSESSED,../evidence/draft-scope-interface-v1-attempt1-review.json
+distributed,segment_or_range,exact_scope,FAIL,,s04;s05;s06,pass: English invitation within8–16words; no completed-review or factual organisation claim,NOT_ASSESSED,../evidence/draft-scope-interface-v1-attempt1-review.json

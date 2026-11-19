@@ -1,0 +1,107 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "reviewer": "Codex",
+    "runtime_sources_unchanged": true,
+    "fixture_unchanged": true,
+    "decision": "Do not integrate alternative: it improved adjacent selection but omitted more required distributed constraints. Exploratory3pairedcases only, no statistical or fulltaskacceptance.",
+    "exact_scope_counts": {
+      "range": "1/3",
+      "segment_or_range": "2/3"
+    },
+    "distributed_omissions": {
+      "range": [
+        "s05",
+        "s06"
+      ],
+      "segment_or_range": [
+        "s04",
+        "s05",
+        "s06"
+      ]
+    },
+    "rows": [
+      {
+        "case": "b1_adjacency",
+        "interface": "range",
+        "exact_scope": false,
+        "extra_segments": [
+          "s06"
+        ],
+        "omitted_segments": [],
+        "text": "Please take a moment to review the document.",
+        "word_count": 8,
+        "draft_meaning": "pass: English invitation within8–16words; no completed-review or factual organisation claim",
+        "scope_coverage": "fail",
+        "limitation": "Generated compliance does not prove omitted instructions were understood."
+      },
+      {
+        "case": "b1_adjacency",
+        "interface": "segment_or_range",
+        "exact_scope": true,
+        "extra_segments": [],
+        "omitted_segments": [],
+        "text": "Please take a moment to review the document.",
+        "word_count": 8,
+        "draft_meaning": "pass: English invitation within8–16words; no completed-review or factual organisation claim",
+        "scope_coverage": "pass",
+        "limitation": "Generated compliance does not prove omitted instructions were understood."
+      },
+      {
+        "case": "reordered",
+        "interface": "range",
+        "exact_scope": true,
+        "extra_segments": [],
+        "omitted_segments": [],
+        "text": "Please review the document for accuracy and completeness.",
+        "word_count": 8,
+        "draft_meaning": "pass: English invitation within8–16words; no completed-review or factual organisation claim",
+        "scope_coverage": "pass",
+        "limitation": "Generated compliance does not prove omitted instructions were understood."
+      },
+      {
+        "case": "reordered",
+        "interface": "segment_or_range",
+        "exact_scope": true,
+        "extra_segments": [],
+        "omitted_segments": [],
+        "text": "Please review the document for accuracy and clarity.",
+        "word_count": 8,
+        "draft_meaning": "pass: English invitation within8–16words; no completed-review or factual organisation claim",
+        "scope_coverage": "pass",
+        "limitation": "Generated compliance does not prove omitted instructions were understood."
+      },
+      {
+        "case": "distributed",
+        "interface": "range",
+        "exact_scope": false,
+        "extra_segments": [],
+        "omitted_segments": [
+          "s05",
+          "s06"
+        ],
+        "text": "We invite you to review the document for further insights and details.",
+        "word_count": 12,
+        "draft_meaning": "pass: English invitation within8–16words; no completed-review or factual organisation claim",
+        "scope_coverage": "fail",
+        "limitation": "Generated compliance does not prove omitted instructions were understood."
+      },
+      {
+        "case": "distributed",
+        "interface": "segment_or_range",
+        "exact_scope": false,
+        "extra_segments": [],
+        "omitted_segments": [
+          "s04",
+          "s05",
+          "s06"
+        ],
+        "text": "We invite you to review the document for further insights and details.",
+        "word_count": 12,
+        "draft_meaning": "pass: English invitation within8–16words; no completed-review or factual organisation claim",
+        "scope_coverage": "fail",
+        "limitation": "Generated compliance does not prove omitted instructions were understood."
+      }
+    ]
+  }
+}

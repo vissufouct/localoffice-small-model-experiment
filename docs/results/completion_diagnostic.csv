@@ -1,0 +1,4 @@
+arm,criterion,outcome,action,reason,actions_executed,complete_task_acceptance,source
+production,select_finish,FAIL,word.read_objects,Additional inspection; not completion evidence.,0,NOT_ASSESSED,../evidence/completion-review-selection-v1-attempt1-review.json
+production_with_review_tools,select_finish,FAIL,ask_user,Unnecessary confirmation and inaccurate claim that required invitation still needs insertion.,0,NOT_ASSESSED,../evidence/completion-review-selection-v1-attempt1-review.json
+completion_review,select_finish,FAIL,ask_user,Unnecessary confirmation and inaccurate claim that required invitation still needs insertion.,0,NOT_ASSESSED,../evidence/completion-review-selection-v1-attempt1-review.json

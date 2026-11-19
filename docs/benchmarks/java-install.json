@@ -1,0 +1,7 @@
+{
+  "download_url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+  "filename": "OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+  "size_bytes": 199754598,
+  "sha256": "bf036b35b071bfb2f54f2c0af8ee8d88afa95ee6eb3dce02c0f94cfc2524d04a",
+  "source": "https://github.com/adoptium/temurin21-binaries"
+}

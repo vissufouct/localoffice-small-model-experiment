@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.localoffice/
+*.pyc
+apps/desktop/dist/
+apps/desktop/src-tauri/target/
+.runtime/
+
+workers/**/bin/
+workers/**/obj/
+
+# Local model registration contains personal paths; keep the checked-in placeholder.
+# Review this tracked file explicitly before commits.
+.DS_Store
+workers/fields/classes/

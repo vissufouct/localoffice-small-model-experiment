@@ -1,0 +1,114 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "reviewer": "Codex",
+    "evidence_sha256": "4c776da05b0372d155f6f477194640ec9f07aea94bb1bd0ae51ab11acede9da0",
+    "scope": "Drafting only; no document creation, scope selection, visual review or full-task acceptance",
+    "rows": [
+      {
+        "case": "b1_observed_broad",
+        "arm": "selected_only",
+        "text": "Síntese — café e inovação.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Síntese — café e inovação."
+        },
+        "semantic_pass": false,
+        "reason": "Copied the exact first paragraph instead of generating the requested English invitation; five words outside 8–16."
+      },
+      {
+        "case": "b1_observed_broad",
+        "arm": "focus_and_objective",
+        "text": "Síntese — café e inovação.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Síntese — café e inovação."
+        },
+        "semantic_pass": false,
+        "reason": "Same copied-literal substitution despite complete objective."
+      },
+      {
+        "case": "reordered_observed",
+        "arm": "selected_only",
+        "text": "Please review the document for accuracy and completeness.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Please review the document for accuracy and completeness."
+        },
+        "semantic_pass": true,
+        "reason": "One neutral English invitation, eight words, no completed-review or organisational factual claim."
+      },
+      {
+        "case": "reordered_observed",
+        "arm": "focus_and_objective",
+        "text": null,
+        "action": {
+          "tool": "ask_user",
+          "text": "Please provide the exact neutral sentence of 8–16 words for the second body paragraph."
+        },
+        "semantic_pass": false,
+        "reason": "Asks user to supply prose the model was explicitly asked to draft; does not complete drafting."
+      },
+      {
+        "case": "distributed_observed",
+        "arm": "selected_only",
+        "text": "We invite you to review the document for further insights and details.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "We invite you to review the document for further insights and details."
+        },
+        "semantic_pass": true,
+        "reason": "One neutral English invitation, twelve words, no prohibited claim; compliance does not prove understanding of omitted constraints."
+      },
+      {
+        "case": "distributed_observed",
+        "arm": "focus_and_objective",
+        "text": "We invite you to review the document for further insights.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "We invite you to review the document for further insights."
+        },
+        "semantic_pass": true,
+        "reason": "One neutral English invitation, ten words, no prohibited claim."
+      },
+      {
+        "case": "distributed_portuguese_counterfactual",
+        "arm": "selected_only",
+        "text": "We invite you to review the document for further insights and details.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "We invite you to review the document for further insights and details."
+        },
+        "semantic_pass": false,
+        "reason": "English twelve-word invitation violates Portuguese language and 4–6-word constraints."
+      },
+      {
+        "case": "distributed_portuguese_counterfactual",
+        "arm": "focus_and_objective",
+        "text": "Recomendamos a revisão do documento.",
+        "action": {
+          "tool": "word.submit_draft",
+          "ref": "df_00000000000000000000000000000000",
+          "text": "Recomendamos a revisão do documento."
+        },
+        "semantic_pass": true,
+        "reason": "Portuguese neutral recommendation to review the document, five words, one sentence, no prohibited claim."
+      }
+    ],
+    "observed_cases": {
+      "selected_only": "2/3",
+      "focus_and_objective": "1/3"
+    },
+    "operator_counterfactual": {
+      "selected_only": "0/1",
+      "focus_and_objective": "1/1"
+    },
+    "decision": "Do not integrate as an accuracy fix. Distributed constraints improved in one counterfactual, broad-selection copied-literal failure persisted, and reordered drafting regressed to unnecessary clarification. Small exploratory sample; no statistical or full-task claim."
+  }
+}

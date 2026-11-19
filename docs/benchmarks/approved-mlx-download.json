@@ -1,0 +1,22 @@
+{
+  "repository": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "model": {
+    "id": "MODEL_NOT_CONFIGURED",
+    "name": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "path": "MODEL_NOT_CONFIGURED",
+    "format": "safetensors",
+    "backend": "mlx",
+    "bytes": 2263022417,
+    "quantization": {
+      "bits": 4,
+      "group_size": 64
+    },
+    "parameters_b": 4.022468096,
+    "parameter_evidence": "index metadata",
+    "architecture": "qwen3",
+    "state": "not_configured",
+    "compatibility": "requires backend probe"
+  },
+  "local_path": "MODEL_NOT_CONFIGURED"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "localoffice-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev --config apps/desktop/src-tauri/tauri.conf.json",
+    "web": "vite --config apps/desktop/vite.config.ts",
+    "build:web": "tsc --noEmit && vite build --config apps/desktop/vite.config.ts",
+    "build": "npm run build:web && tauri build --config apps/desktop/src-tauri/tauri.conf.json --bundles app",
+    "test": "uv run pytest -q"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "dompurify": "^3",
+    "marked": "^17",
+    "pdfjs-dist": "^6.5.438"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56",
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^24",
+    "typescript": "^5.9",
+    "vite": "^7"
+  }
+}

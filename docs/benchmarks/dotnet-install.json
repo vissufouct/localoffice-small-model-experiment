@@ -1,0 +1,7 @@
+{
+  "version": "10.0.404",
+  "rid": "osx-arm64",
+  "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-osx-arm64.tar.gz",
+  "hash": "1c9a13f625d0c08f08ef5a53597bababe3d2473527e98db2199210940c69dd5fc599a39a4d7c30ebf297ca2334a81b2f64b9bf05ff99585de9af4a5d85215e96",
+  "download_bytes": 233588093
+}

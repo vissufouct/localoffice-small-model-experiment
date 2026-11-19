@@ -1,0 +1,12 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "overall": "failed",
+    "reviewer": "Codex",
+    "visual_review": "passed_candidate_only",
+    "reason": "Task exhausted10steps after candidatecreation thenunneededmultioperationload(rejectedcapacity) andfind_text. Submittedfragmentcopiedfirstliteral; wouldfailv2 paragraph2handoff. CandidatepureXML/PDF/visual/meaningchecks pass; fulltask/lifecycle notaccepted.",
+    "runtime_sources_unchanged": true,
+    "cohort": "isolated_draft_planning_reviewed_v2",
+    "full_acceptance": "0/1 v2; prior v1 remains0/6"
+  }
+}

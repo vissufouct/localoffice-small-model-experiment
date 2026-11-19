@@ -1,0 +1,5 @@
+check,outcome,passed_tests,elapsed_seconds,scope,model_accuracy_qualification,source
+Historical full source regression suite,PASS,2799,383,Original configured workspace; historical reported result,False,../EXPERIMENT.md
+Export targeted regression selection,PASS,24,1.98,Export tests; not additive to historical full suite,False,../VALIDATION.md
+Export frontend and native debug builds,PASS,,,Build only,False,../VALIDATION.md
+Export native UI project creation,PASS,,,Observed UI interaction; no model inference,False,../VALIDATION.md

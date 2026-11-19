@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "diagnostic": "draft_scope_interface_v1",
+  "status": "frozen_before_inference",
+  "hypothesis": "An explicit single-segment option reduces adjacent copied-source inclusion without losing distributed drafting constraints.",
+  "model_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0
+  },
+  "budget": {
+    "context_limit": 4096,
+    "max_tokens_per_response": 768,
+    "safety_reserve": 128,
+    "responses_per_arm": 2,
+    "retries": 0,
+    "seconds_per_arm": 150
+  },
+  "schedule": [
+    [
+      "b1_adjacency",
+      "range"
+    ],
+    [
+      "b1_adjacency",
+      "segment_or_range"
+    ],
+    [
+      "reordered",
+      "range"
+    ],
+    [
+      "reordered",
+      "segment_or_range"
+    ],
+    [
+      "distributed",
+      "range"
+    ],
+    [
+      "distributed",
+      "segment_or_range"
+    ]
+  ],
+  "scoring": {
+    "selection": "Exact expected span; report omitted and extra segment IDs independently. Either singleton encoding is accepted.",
+    "draft": "Generate from actual selected span, never expected/repaired span. Record exact copied-literal equality and whitespace word count; language, purpose, tone and claims require independent semantic review.",
+    "decision": "Three paired cases are exploratory, not statistical or full-task acceptance. Reject narrowing-only improvement if distributed constraints are omitted.",
+    "non_selection": "ask_user/load_tools, invalid call, timeout or overflow are retained failures/exits; no retry or automatic repair."
+  },
+  "cases": [
+    {
+      "id": "b1_adjacency",
+      "objective": "Create report.docx on A4 portrait with one-inch margins. Use Arial 12 point for all body text, using a named paragraph style. Create exactly three body paragraphs in this order: first, exactly \"Síntese — café e inovação.\"; second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; third, exactly \"Conclusão — próximos passos.\". Put a page break before the third paragraph. Do not add a title, other body text, headers, footers, page numbers, tables or images. Stage the document and finish.",
+      "catalogue": {
+        "available": true,
+        "source_hash": "6f59c8aac0d8afc3a2ec741e14233add87b4be2957eb7b4fa4d4bf36a2ab4395",
+        "version": 1,
+        "complete": true,
+        "segments": {
+          "s01": {
+            "text": "Create report.docx on A4 portrait with one-inch margins. ",
+            "start": 0,
+            "end": 57
+          },
+          "s02": {
+            "text": "Use Arial 12 point for all body text, using a named paragraph style. ",
+            "start": 57,
+            "end": 126
+          },
+          "s03": {
+            "text": "Create exactly three body paragraphs in this order: ",
+            "start": 126,
+            "end": 178
+          },
+          "s04": {
+            "text": "first, exactly \"Síntese — café e inovação.\"; ",
+            "start": 178,
+            "end": 223
+          },
+          "s05": {
+            "text": "second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; ",
+            "start": 223,
+            "end": 419
+          },
+          "s06": {
+            "text": "third, exactly \"Conclusão — próximos passos.\". ",
+            "start": 419,
+            "end": 466
+          },
+          "s07": {
+            "text": "Put a page break before the third paragraph. ",
+            "start": 466,
+            "end": 511
+          },
+          "s08": {
+            "text": "Do not add a title, other body text, headers, footers, page numbers, tables or images. ",
+            "start": 511,
+            "end": 598
+          },
+          "s09": {
+            "text": "Stage the document and finish.",
+            "start": 598,
+            "end": 628
+          }
+        }
+      },
+      "expected": {
+        "range": {
+          "start": "s05",
+          "end": "s05"
+        },
+        "segments": [
+          "s05"
+        ],
+        "span": {
+          "start": 223,
+          "end": 419
+        },
+        "text": "second, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation; ",
+        "requires_multiple_segments": false
+      },
+      "copied_literals": [
+        "Síntese — café e inovação.",
+        "Conclusão — próximos passos."
+      ]
+    },
+    {
+      "id": "reordered",
+      "objective": "Create report.docx on A4 portrait with one-inch margins. Use Arial 12 point for all body text, using a named paragraph style. For the second body paragraph, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation. For the first body paragraph, copy exactly \"Síntese — café e inovação.\". For the third body paragraph, copy exactly \"Conclusão — próximos passos.\". Create only these three body paragraphs. Put a page break before the third paragraph. Do not add a title, other body text, headers, footers, page numbers, tables or images. Stage the document and finish.",
+      "catalogue": {
+        "available": true,
+        "source_hash": "7e884f39862185cec0399e5aae92ad11011974f0000c6a7e5a322a390367f4e4",
+        "version": 1,
+        "complete": true,
+        "segments": {
+          "s01": {
+            "text": "Create report.docx on A4 portrait with one-inch margins. ",
+            "start": 0,
+            "end": 57
+          },
+          "s02": {
+            "text": "Use Arial 12 point for all body text, using a named paragraph style. ",
+            "start": 57,
+            "end": 126
+          },
+          "s03": {
+            "text": "For the second body paragraph, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation. ",
+            "start": 126,
+            "end": 345
+          },
+          "s04": {
+            "text": "For the first body paragraph, copy exactly \"Síntese — café e inovação.\". ",
+            "start": 345,
+            "end": 418
+          },
+          "s05": {
+            "text": "For the third body paragraph, copy exactly \"Conclusão — próximos passos.\". ",
+            "start": 418,
+            "end": 493
+          },
+          "s06": {
+            "text": "Create only these three body paragraphs. ",
+            "start": 493,
+            "end": 534
+          },
+          "s07": {
+            "text": "Put a page break before the third paragraph. ",
+            "start": 534,
+            "end": 579
+          },
+          "s08": {
+            "text": "Do not add a title, other body text, headers, footers, page numbers, tables or images. ",
+            "start": 579,
+            "end": 666
+          },
+          "s09": {
+            "text": "Stage the document and finish.",
+            "start": 666,
+            "end": 696
+          }
+        }
+      },
+      "expected": {
+        "range": {
+          "start": "s03",
+          "end": "s03"
+        },
+        "segments": [
+          "s03"
+        ],
+        "span": {
+          "start": 126,
+          "end": 345
+        },
+        "text": "For the second body paragraph, draft one neutral English sentence of 8–16 words inviting the reader to review the document, without claiming a review has already happened or adding factual claims about an organisation. ",
+        "requires_multiple_segments": false
+      },
+      "copied_literals": [
+        "Síntese — café e inovação.",
+        "Conclusão — próximos passos."
+      ]
+    },
+    {
+      "id": "distributed",
+      "objective": "Create report.docx with three body paragraphs. For the first paragraph, copy exactly \"Síntese — café e inovação.\". For the second paragraph, draft one sentence inviting the reader to review the document. Write that new sentence in English. Use 8–16 words for that sentence. Keep its tone neutral, without claiming a review has already happened or adding factual claims about an organisation. For the third paragraph, copy exactly \"Conclusão — próximos passos.\". Use Arial 12 point and one-inch margins. Stage the document and finish.",
+      "catalogue": {
+        "available": true,
+        "source_hash": "65d6758684929cca916cc8fcb9146fd4b3cf529263e703dbe300d691b64bac04",
+        "version": 1,
+        "complete": true,
+        "segments": {
+          "s01": {
+            "text": "Create report.docx with three body paragraphs. ",
+            "start": 0,
+            "end": 47
+          },
+          "s02": {
+            "text": "For the first paragraph, copy exactly \"Síntese — café e inovação.\". ",
+            "start": 47,
+            "end": 115
+          },
+          "s03": {
+            "text": "For the second paragraph, draft one sentence inviting the reader to review the document. ",
+            "start": 115,
+            "end": 204
+          },
+          "s04": {
+            "text": "Write that new sentence in English. ",
+            "start": 204,
+            "end": 240
+          },
+          "s05": {
+            "text": "Use 8–16 words for that sentence. ",
+            "start": 240,
+            "end": 274
+          },
+          "s06": {
+            "text": "Keep its tone neutral, without claiming a review has already happened or adding factual claims about an organisation. ",
+            "start": 274,
+            "end": 392
+          },
+          "s07": {
+            "text": "For the third paragraph, copy exactly \"Conclusão — próximos passos.\". ",
+            "start": 392,
+            "end": 462
+          },
+          "s08": {
+            "text": "Use Arial 12 point and one-inch margins. ",
+            "start": 462,
+            "end": 503
+          },
+          "s09": {
+            "text": "Stage the document and finish.",
+            "start": 503,
+            "end": 533
+          }
+        }
+      },
+      "expected": {
+        "range": {
+          "start": "s03",
+          "end": "s06"
+        },
+        "segments": [
+          "s03",
+          "s04",
+          "s05",
+          "s06"
+        ],
+        "span": {
+          "start": 115,
+          "end": 392
+        },
+        "text": "For the second paragraph, draft one sentence inviting the reader to review the document. Write that new sentence in English. Use 8–16 words for that sentence. Keep its tone neutral, without claiming a review has already happened or adding factual claims about an organisation. ",
+        "requires_multiple_segments": true
+      },
+      "copied_literals": [
+        "Síntese — café e inovação.",
+        "Conclusão — próximos passos."
+      ]
+    }
+  ]
+}

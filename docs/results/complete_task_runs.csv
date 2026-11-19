@@ -1,0 +1,2 @@
+run_id,cohort,fixture,verifier_version,outcome,complete_task_accepted,elapsed_seconds,model_calls,tool_calls,repair_events,input_tokens,output_tokens,reason,source,evidence_scope
+b1_isolated_v2_attempt1,isolated_draft_planning_reviewed_v2,B1,2,FAIL,False,121.85266329208389,10,10,1,25997,1120,Task did not finish within ten steps; submitted draft also differed from paragraph two.,../evidence/word-body-b1-isolated-plan-v2-attempt1/report.json,Single included complete-task report; not all historical attempts

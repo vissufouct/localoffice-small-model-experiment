@@ -1,0 +1,27 @@
+{
+  "export_note": "Redacted research evidence; historical hashes refer to original files; not a replayable saved-state snapshot.",
+  "data": {
+    "reviewer": "Codex",
+    "decision": "Do not integrate as an accuracy fix on these results. None of the three arms selected finish; the two review-tool variants asked unnecessary confirmation for text already present.",
+    "scope": "Terminal recorded-state selection only; no actions executed, no task resumed, no acceptance credit. The stricter draft-placement mismatch remains independently unresolved.",
+    "runtime_unchanged": true,
+    "preflight_unchanged": true,
+    "rows": [
+      {
+        "variant": "production",
+        "selected_action": "word.read_objects",
+        "assessment": "Additional inspection; not completion evidence."
+      },
+      {
+        "variant": "production_with_review_tools",
+        "selected_action": "ask_user",
+        "assessment": "Unnecessary confirmation and inaccurate claim that required invitation still needs insertion."
+      },
+      {
+        "variant": "completion_review",
+        "selected_action": "ask_user",
+        "assessment": "Unnecessary confirmation and inaccurate claim that required invitation still needs insertion."
+      }
+    ]
+  }
+}
